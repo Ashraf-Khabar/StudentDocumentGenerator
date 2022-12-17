@@ -30,12 +30,12 @@ fs.readFile('../affiche_des_notes/Ginf2_Notes.xml', 'utf8', (err, data) => {
 
         for (const note of notes) {
             // Extract the relevant information from the note element
-            const cne = note.CNE[0];
-            const firstName = note.FirstName[0];
-            const lastName = note.LastName[0];
-            const className = note.ClassName[0];
-            const moduleName = note.ModuleName[0];
-            const noteElement = note.NoteElement[0];
+            const cne = note.CNE;
+            const firstName = note.FirstName;
+            const lastName = note.LastName;
+            const className = note.ClassName;
+            const moduleName = note.ModuleName;
+            const noteElement = note.NoteElement;
 
             // Add a heading for the note
             doc.text('Note:');
