@@ -3,6 +3,9 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     exclude-result-prefixes="xs"
     version="2.0">
+    <xsl:output method="html" version="4.01" indent="yes"/>
+    <xsl:output doctype-system="http://www.w3.org/TR/html4/strict.dtd"/>
+    <xsl:output doctype-public="-//W3C//DTD HTML 4.01//EN"/>
     <xsl:template match="/">
         <html>
             <center>
