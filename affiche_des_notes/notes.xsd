@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="notes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="note" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="CNE" type="xs:string"/>
+                            <xs:element name="FirstName" type="xs:string"/>
+                            <xs:element name="LastName" type="xs:string"/>
+                            <xs:element name="ClassName" type="xs:string"/>
+                            <xs:element name="ModuleName" type="xs:string"/>
+                             <xs:element name="NoteElement">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:decimal">
+                                        <xs:minInclusive value="0"/>
+                                        <xs:maxInclusive value="20"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
