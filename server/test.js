@@ -3,7 +3,7 @@ const xml2js = require('xml2js');
 const PDFDocument = require('pdfkit');
 const express = require("express");
 
-const app = express()
+const app = express();
 
 // Read the XML file
 fs.readFile('../affiche_des_notes/Ginf2_Notes.xml', 'utf8', (err, xmlData) => {
@@ -13,7 +13,7 @@ fs.readFile('../affiche_des_notes/Ginf2_Notes.xml', 'utf8', (err, xmlData) => {
     }
 
     // Read the XSL file
-    fs.readFile('../affiche_des_notes/Affichage_Ing.xsl', 'utf8', (err, xslData) => {
+    fs.readFile('path/to/xsl/file.xsl', 'utf8', (err, xslData) => {
         if (err) {
             console.error(err);
             return;
@@ -25,12 +25,12 @@ fs.readFile('../affiche_des_notes/Ginf2_Notes.xml', 'utf8', (err, xmlData) => {
                 console.error(err);
                 return;
             }
-            console.log(xslResult['xsl:stylesheet']['xsl:template'][0].html);
 
             // Extract the styling information from the XSL data
-            const xslTemplate = xslResult['xsl:stylesheet']['xsl:template'];
-            const xslValueOf = xslResult['xsl:stylesheet']['xsl:template'];
-            // Parse the XML data1
+            const xslTemplate = xslResult['xsl:template'];
+            const xslValueOf = xslResult['xsl:value-of'];
+
+            // Parse the XML data
             xml2js.parseString(xmlData, async (err, xmlResult) => {
                 if (err) {
                     console.error(err);
@@ -74,7 +74,7 @@ fs.readFile('../affiche_des_notes/Ginf2_Notes.xml', 'utf8', (err, xmlData) => {
                 }
 
                 // Save the PDF document to a file
-                const pdfFile = '../generated docs/affichage_notes.pdf';
+                const pdfFile = './file.pdf';
                 doc.pipe(fs.createWriteStream(pdfFile));
                 doc.end();
 
@@ -95,6 +95,6 @@ fs.readFile('../affiche_des_notes/Ginf2_Notes.xml', 'utf8', (err, xmlData) => {
     });
 });
 
-app.listen(3001, () => {
-    console.log("this app is running in the port 3001");
-});
+
+
+
