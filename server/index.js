@@ -29,6 +29,7 @@ fs.readFile('../affiche_des_notes/Ginf2_Notes.xml', 'utf8', (err, data) => {
         doc.fontSize(25).font('Helvetica');
 
         for (const note of notes) {
+            // Extract the relevant information from the note element
             const cne = note.CNE[0];
             const firstName = note.FirstName[0];
             const lastName = note.LastName[0];
@@ -36,7 +37,11 @@ fs.readFile('../affiche_des_notes/Ginf2_Notes.xml', 'utf8', (err, data) => {
             const moduleName = note.ModuleName[0];
             const noteElement = note.NoteElement[0];
 
-            // Add the information to the PDF document
+            // Add a heading for the note
+            doc.text('Note:');
+            doc.moveDown();
+
+            // Add the information for the note to the PDF document
             doc.text(`CNE: ${cne}`);
             doc.moveDown();
             doc.text(`First Name: ${firstName}`);
