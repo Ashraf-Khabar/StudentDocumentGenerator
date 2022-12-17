@@ -25,12 +25,10 @@ fs.readFile('../affiche_des_notes/Ginf2_Notes.xml', 'utf8', (err, xmlData) => {
                 console.error(err);
                 return;
             }
-            console.log(xslResult['xsl:stylesheet']['xsl:template'][0].html);
-
             // Extract the styling information from the XSL data
-            const xslTemplate = xslResult['xsl:stylesheet']['xsl:template'];
-            const xslValueOf = xslResult['xsl:stylesheet']['xsl:template'];
-            // Parse the XML data1
+            const xslTemplate = xslResult['xsl:stylesheet']['xsl:template'][0];
+            const xslValueOf = xslResult['xsl:stylesheet']['xsl:template'][0];
+            // Parse the XML data
             xml2js.parseString(xmlData, async (err, xmlResult) => {
                 if (err) {
                     console.error(err);
