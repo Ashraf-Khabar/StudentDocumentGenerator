@@ -13,7 +13,7 @@ fs.readFile('../affiche_des_notes/Ginf2_Notes.xml', 'utf8', (err, data) => {
     }
 
     // Parse the XML data
-    xml2js.parseString(data, (err, result) => {
+    xml2js.parseString(data, async (err, result) => {
         if (err) {
             console.error(err);
             return;
@@ -25,8 +25,7 @@ fs.readFile('../affiche_des_notes/Ginf2_Notes.xml', 'utf8', (err, data) => {
         // Create a new PDF document
         const doc = new PDFDocument();
 
-        // Set the font size and font family for the PDF document
-        doc.fontSize(25).font('Helvetica');
+        // Get the styling information from the XSL file
 
         for (const note of notes) {
             // Extract the relevant information from the note element
