@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<emploi xmlns="http://GINF2Emploi.org">
+    <TopBar>
+        <logoUae uri="logoUae.png"/>
+        <logoEnsa uri="ensa.png"/>
+        <Title>EMPLOI DU TEMPS ENSA TANGER --- GINF2</Title>
+        <semaine>Semaine : </semaine>
+        <annee>Année : </annee>
+        <SemNum>03</SemNum>
+        <AnneeNum>2021</AnneeNum>
+    </TopBar>    
+    <Days>
+        <day name="Lundi"> </day>
+        
+        <day name="Mardi"> </day>
+        
+        <day name="Mercredi"></day>
+        
+        <day name="Jeudi"></day>
+        
+        <day name="Vendredi"></day>
+        
+        <day name="Samedi"></day>
+        
+    </Days>
+    <times>
+        
+        <time t="08:00"></time>
+        <time t="08:30"></time>
+        <time t="09:00"></time>
+        <time t="09:30"></time>
+        <time t="10:00"></time>
+        <time t="10:30"></time>
+        <time t="11:00"></time>
+        <time t="11:30"></time>
+        <time t="12:00"></time>
+        <time t="12:30"></time>
+        <time t="13:00"></time>
+        <time t="13:30"></time>
+        <time t="14:00"></time>
+        <time t="14:30"></time>
+        <time t="15:00"></time>
+        <time t="15:30"></time>
+        <time t="16:00"></time>
+        <time t="16:30"></time>
+        <time t="17:00"></time>
+        <time t="17:30"></time>
+        <time t="18:00"></time>
+        <time t="18:30"></time>
+    </times>
+    
+    <matieres>
+        
+        <matiere1>
+            <nom>MAIISE ET OPTIM</nom>
+            <type>CM - </type>
+            <Durre1>09:00 - 10:30</Durre1>
+            <jour>Lundi</jour>
+            <nomProf>RAHALI</nomProf>
+            <salle>A DISTANCE</salle>
+        </matiere1>
+        
+        <matiere1suite>
+            <nom>MAIISE ET OPTIM</nom>
+            <type>CM - </type>
+            <Durre1>11:00 - 12:30</Durre1>
+            <jour>Lundi</jour>
+            <nomProf>RAHALI</nomProf>
+            <salle>A DISTANCE</salle>
+        </matiere1suite>
+        
+        <matiere2>
+            <nom>ADMIN SYSTEME</nom>
+            <type>TP - </type>
+            <Durre1>14:00 - 15:30</Durre1>
+            <jour>Lundi</jour>
+            <nomProf>AMECHNOUE</nomProf>
+            <salle>Salle B14</salle>
+        </matiere2>
+        
+        <matiere3>
+            <nom>ADMIN SYSTEME</nom>
+            <type>TP - </type>
+            <Durre1>16:00 - 17:30</Durre1>
+            <jour>Lundi</jour>
+            <nomProf>AMECHNOUE</nomProf>
+            <salle>Salle B14</salle>
+        </matiere3>
+        
+        <matiere4>
+            <nom>OPTIM ET QUAL</nom>
+            <type>CM - </type>
+            <Durre1>09:00 - 10:30</Durre1>
+            <jour>Mardi</jour>
+            <nomProf>FISSOUNE</nomProf>
+            <salle>A DISTANCE</salle>
+        </matiere4>
+        
+        <matiere5>
+            <nom>OPTIM ET QUAL</nom>
+            <type>TP - </type>
+            <Durre1>11:00 - 12:30</Durre1>
+            <jour>Mardi</jour>
+            <nomProf>FISSOUNE</nomProf>
+            <salle>SALLE B14</salle>
+        </matiere5>
+        
+        <matiere6>
+            <nom>MODELI ORIE OB</nom>
+            <type>CM - </type>
+            <Durre1>14:00 - 15:30</Durre1>
+            <jour>Mardi</jour>
+            <nomProf>EL ALAMI</nomProf>
+            <salle>A DISTANCE</salle>
+        </matiere6>
+        
+        <matiere7>
+            <nom>MODELI ORIE OB</nom>
+            <type>CM - </type>
+            <Durre1>16:00 - 17:30</Durre1>
+            <jour>Mardi</jour>
+            <nomProf>EL ALAMI</nomProf>
+            <salle>AMPHI 2</salle>
+        </matiere7>
+        
+        <matiere8>
+            <nom>PROGRAMMATION OR</nom>
+            <type>CM - </type>
+            <Durre1>09:00 - 10:30</Durre1>
+            <jour>Mercredi</jour>
+            <nomProf>EL HADDAD</nomProf>
+            <salle>A DISTANCE</salle>
+        </matiere8>
+        
+        <matiere9>
+            <nom>PROGRAMMATION OR</nom>
+            <type>TP - </type>
+            <Durre1>11:00 - 12:30</Durre1>
+            <jour>Mercredi</jour>
+            <nomProf>EL HADDAD</nomProf>
+            <salle>A DISTANCE</salle>
+        </matiere9>
+        
+        <matiere10>
+            <nom>ADMIN SYSTEME</nom>
+            <type>CM - </type>
+            <Durre1>14:00 - 15:30</Durre1>
+            <jour>Mercredi</jour>
+            <nomProf>AMECHNOUE</nomProf>
+            <salle>A DISTANCE</salle>
+        </matiere10>
+        
+        <matiere11>
+            <nom>ADMIN ET SECUR</nom>
+            <type>CM - </type>
+            <Durre1>09:00 - 10:30</Durre1>
+            <jour>Jeudi</jour>
+            <nomProf>BADIR</nomProf>
+            <salle>A DISTANCE</salle>
+        </matiere11>
+        
+        <matiere12>
+            <nom>ADMIN ET SECUR</nom>
+            <type>TD - </type>
+            <Durre1>11:00 - 12:30</Durre1>
+            <jour>Jeudi</jour>
+            <nomProf>BADIR</nomProf>
+            <salle>A DISTANCE</salle>
+        </matiere12>
+        
+        <matiere13>
+            <nom>ESPAGNOL</nom>
+            <type>CM - </type>
+            <Durre1>16:00 - 17:30</Durre1>
+            <jour>Jeudi</jour>
+            <nomProf>LAAMARTI</nomProf>
+            <salle>SALLE A8</salle>
+        </matiere13>
+        
+        <matiere14>
+            <nom>XML</nom>
+            <type>CM - </type>
+            <Durre1>09:00 - 10:30</Durre1>
+            <jour>Vendredi</jour>
+            <nomProf>LACHKAR</nomProf>
+            <salle>A DISTANCE</salle>
+        </matiere14>
+        
+        <matiere15>
+            <nom>XML</nom>
+            <type>TP - </type>
+            <Durre1>11:00 - 12:30</Durre1>
+            <jour>Vendredi</jour>
+            <nomProf>LACHKAR</nomProf>
+            <salle>SALLE B20</salle>
+        </matiere15>
+        
+        <matiere16>
+            <nom>ANGLAIS</nom>
+            <type>CM - </type>
+            <Durre1>14:30 - 16:00</Durre1>
+            <jour>Vendredi</jour>
+            <nomProf>BOURIKI</nomProf>
+            <salle>AMPHI 1</salle>
+        </matiere16>
+        
+        <matiere17>
+            <nom>ANGLAIS</nom>
+            <type>CM - </type>
+            <Durre1>16:30 - 18:00</Durre1>
+            <jour>Vendredi</jour>
+            <nomProf>BOURIKI</nomProf>
+            <salle>AMPHI 1</salle>
+        </matiere17>
+        
+        
+    </matieres>
+    
+    <footer>
+        <titlefooter>Légendes des en-tetes : </titlefooter>
+        <f1>Cours</f1>
+        <f2>TP</f2>
+        <f3>TD</f3>
+        
+    </footer>
+    
+</emploi>

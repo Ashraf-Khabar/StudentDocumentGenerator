@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<card xmlns="http://studentcard.org">
+    <logoUae uri="logoUae.png"/>
+    <nameUae>Université Abdelmalek Essaâdi</nameUae>
+    <nameSchool>Ecole Nationale des Sciences Appliquées </nameSchool>
+    <villeSchool>Tanger</villeSchool>
+    <logoEnsa uri="ensat.png"/>
+    <title>CARTE D'ETUDIANT</title>
+    <lastName>EL AAKKOUCHI</lastName>
+    <firstName>SALMA</firstName>
+    <codeApoge>16010186</codeApoge>
+    <photo uri="sal3.jpg"/>
+    <scanBar uri="scanbar.png"/>
+    <footer>Première Inscription : 2016 / 2017</footer>
+</card>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <listeEtudiants>
+        <Etudiant CNE="17004474" id="1">
+            <Nom>El Younssi</Nom>
+            <Prenom>Mouna</Prenom>
+ 
+        </Etudiant>
+        <Etudiant CNE="16010186" id="2">
+            <Nom>El Aakkouchi</Nom>
+            <Prenom>Salma</Prenom>
+           
+        </Etudiant>
+        <Etudiant CNE="16006063" id="3">
+            <Nom>Chihi</Nom>
+            <Prenom>Hasnae</Prenom>
+            
+        </Etudiant>
+        <Etudiant CNE="17003791" id="4">
+            <Nom>Kherraf</Nom>
+            <Prenom>Taha</Prenom>
+            
+        </Etudiant>
+        <Etudiant CNE="17004437" id="5">
+            <Nom>Sahel</Nom>
+            <Prenom>Ikrame</Prenom>
+           
+        </Etudiant>
+        <Etudiant CNE="17003812" id="6">
+            <Nom>Jadar</Nom>
+            <Prenom>Mohamed</Prenom>
+            
+        </Etudiant>
+        <Etudiant CNE="17004448" id="7">
+            <Nom>Essar-rhini</Nom>
+            <Prenom>Souhaib</Prenom>
+            
+        </Etudiant>
+        <Etudiant CNE="17004445" id="8">
+            <Nom>Adraoui</Nom>
+            <Prenom>Khaoula</Prenom>
+            
+            <resultat> 14.57</resultat>
+        </Etudiant>
+        <Etudiant CNE="17005951" id="9">
+            <Nom>Ahmadoun</Nom>
+            <Prenom>Mohamed</Prenom>
+            
+        </Etudiant>
+        <Etudiant CNE="17003373" id="10">
+            <Nom>Ameziane</Nom>
+            <Prenom>Chaimae</Prenom>
+           
+        </Etudiant>
+        <Etudiant CNE="16000421" id="11">
+            <Nom>Ben taher</Nom>
+            <Prenom>Mohamed</Prenom>
+           
+        </Etudiant>
+        <Etudiant CNE="17006268" id="12">
+            <Nom>Benabdellah</Nom>
+            <Prenom>Adnane</Prenom>
+            
+        </Etudiant>
+        <Etudiant CNE="17003531" id="13">
+            <Nom>Bouabid</Nom>
+            <Prenom>Iness</Prenom>
+            
+        </Etudiant>
+        <Etudiant CNE="17003833" id="14">
+            <Nom>Charfi</Nom>
+            <Prenom>Youssef</Prenom>
+            
+        </Etudiant>
+        <Etudiant CNE="17005894" id="15">
+            <Nom>Dahchar</Nom>
+            <Prenom>Mohammed Said</Prenom>
+           
+        </Etudiant>
+        <Etudiant CNE="17003240" id="16">
+            <Nom>El Azizi</Nom>
+            <Prenom>Hamza</Prenom>
+            
+        </Etudiant>
+        <Etudiant CNE="17004484" id="17">
+            <Nom>El Haddaji</Nom>
+            <Prenom>Mohamed Amine</Prenom>
+            
+        </Etudiant>
+        <Etudiant CNE="17007213" id="18">
+            <Nom>El Manssouri</Nom>
+            <Prenom>Issam</Prenom>
+           
+        </Etudiant>
+        <Etudiant CNE="17003312" id="19">
+            <Nom>El Moustachir</Nom>
+            <Prenom>Yassine</Prenom>
+           
+        </Etudiant>
+        <Etudiant CNE="17003435" id="20">
+            <Nom>Elkhayyat</Nom>
+            <Prenom>Mohammad elamine</Prenom>
+            
+        </Etudiant>
+        <Etudiant CNE="17003902" id="21">
+            <Nom>Falaki</Nom>
+            <Prenom>Youssef</Prenom>
+            
+        </Etudiant>
+        <Etudiant CNE="17004052" id="22">
+            <Nom>Achahbar</Nom>
+            <Prenom>Adnane</Prenom>
+            
+        </Etudiant>
+      
+        <Etudiant CNE="17003906" id="23">
+            <Nom>Malawi</Nom>
+            <Prenom>Imane</Prenom>
+            
+        </Etudiant>
+        <Etudiant CNE="17004463" id="24">
+            <Nom>Mansour</Nom>
+            <Prenom>El Mehdi</Prenom>
+            
+        </Etudiant>
+        <Etudiant CNE="17004490" id="25">
+            <Nom>Maztaoui</Nom>
+            <Prenom>Ilias</Prenom>
+          
+          
+        </Etudiant>
+        <Etudiant CNE="17008009" id="26">
+            <Nom>Noufel</Nom>
+            <Prenom>Salima</Prenom>
+          
+        </Etudiant>
+        <Etudiant CNE="17006208" id="27">
+            <Nom>Serrad</Nom>
+            <Prenom>Hajar</Prenom>
+            
+        </Etudiant>
+        <Etudiant CNE="17009146" id="28">
+            <Nom>Ebenezer Stéphane</Nom>
+            <Prenom>Tolly</Prenom>
+           
+        </Etudiant>
+        <Etudiant CNE="17008402" id="29">
+            <Nom>HERMAN JOEL</Nom>
+            <Prenom>TATANI </Prenom>
+           
+        </Etudiant>
+        <Etudiant CNE="17008409" id="30">
+            <Nom>Joseph </Nom>
+            <Prenom>NGAN MINTAMAK</Prenom>
+            
+        </Etudiant>
+        <Etudiant CNE="17004661" id="31">
+            <Nom>Aissa</Nom>
+            <Prenom>Maria</Prenom>
+            
+        </Etudiant>
+        <Etudiant CNE="17005996" id="32">
+            <Nom>Bouhal</Nom>
+            <Prenom>Bassma</Prenom>
+            
+        </Etudiant>
+        <Etudiant CNE="18010230" id="33">
+            <Nom>Dabdoubi</Nom>
+            <Prenom>Aymane</Prenom>
+           
+        </Etudiant>
+        <Etudiant CNE="17003526" id="34">
+            <Nom>Echtioui</Nom>
+            <Prenom>Salma</Prenom>
+           
+        </Etudiant>
+        <Etudiant CNE="17005999" id="35">
+            <Nom>El Hassani</Nom>
+            <Prenom>Sokayna</Prenom>
+           
+        </Etudiant>
+        <Etudiant CNE="17005899" id="36">
+            <Nom>El Jattari</Nom>
+            <Prenom>Mohammed</Prenom>
+           
+        </Etudiant>
+        <Etudiant CNE="17004681" id="37">
+            <Nom>El Ouzani</Nom>
+            <Prenom>Zohra</Prenom>
+            
+        </Etudiant>
+        <Etudiant CNE="17002181" id="38">
+            <Nom>El-Asli</Nom>
+            <Prenom>Mariam</Prenom>
+            
+        </Etudiant>
+        <Etudiant CNE="20010861" id="39">
+            <Nom>Jaadar</Nom>
+            <Prenom>Sami</Prenom>
+           
+        </Etudiant>
+        <Etudiant CNE="16003502" id="40">
+            <Nom>Kaadiri</Nom>
+            <Prenom>Abdelatif</Prenom>
+           
+        </Etudiant>
+        <Etudiant CNE="15000241" id="41">
+            <Nom>Mossaouir</Nom>
+            <Prenom>Firdaous</Prenom>
+           
+           
+        </Etudiant>
+        <Etudiant CNE="17005887" id="42">
+            <Nom>OU-MECHTAK</Nom>
+            <Prenom>Rida</Prenom>
+           
+        </Etudiant>
+        <Etudiant CNE="17007307" id="43">
+            <Nom>Rahmani</Nom>
+            <Prenom>Mohammed</Prenom>
+            
+        </Etudiant>
+        <Etudiant CNE="17005875" id="44">
+            <Nom>Sahli</Nom>
+            <Prenom>Kawtar</Prenom>
+           
+        </Etudiant>
+        <Etudiant CNE="17005922" id="45">
+            <Nom>Salmoun</Nom>
+            <Prenom>Insaf</Prenom>
+           
+          
+        </Etudiant>
+        <Etudiant CNE="16008636" id="46">
+            <Nom>SISTI</Nom>
+            <Prenom>Mohammed Karim</Prenom>
+            
+        </Etudiant>
+        <Etudiant CNE="17003772" id="47">
+            <Nom>Bouzekraoui</Nom>
+            <Prenom>Asmae</Prenom>
+          
+        </Etudiant>
+       
+        <Etudiant CNE="17005772" id="48">
+            <Nom>El Kasmi</Nom>
+            <Prenom>fatima zohra</Prenom>
+            
+        </Etudiant>
+    </listeEtudiants>
+    

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<attes  xmlns="http://GINF2AttestaionReussite.org">
+    
+    <royaumefr>Royaume du Maroc</royaumefr>
+    <nameUaefr>Université Abdelmalek Essaâdi</nameUaefr>
+    <nameSchoolfr>Ecole Nationale des Sciences Appliquées </nameSchoolfr>
+    <villeSchoolfr>Tanger</villeSchoolfr>
+    
+    <logoEnsa uri="ensa.png"/>
+    
+    <royaumeAr lang="ar" direction="rtl">المملكة المغربية</royaumeAr>
+    <nameUaeAr lang="ar" direction="rtl">جامعة عبد المالك السعدي</nameUaeAr>
+    <nameSchoolAr lang="ar" direction="rtl">المدرسة الوطنية للعلوم التطبيقية </nameSchoolAr>
+    <villeSchoolAr lang="ar" direction="rtl">طنجة</villeSchoolAr>
+    
+    
+    <title>ATTESTATION  DE  REUSSITE</title>
+    
+    <body>
+        <header>Le Directeur de l'Ecole Natioale des Sciences Appliquées de Tanger atteste que</header>
+        <infoEtudiant>
+            <nom>mademoiselle EL AAKKOUCHI SALMA</nom>
+            <naissance>née le 2 mars 1999 à CASABLANCA</naissance>
+            <message>a été déclarée admis au niveau</message>
+            <nivAdmis>3° Année Génie Informatique (Systèmes d'information)</nivAdmis>
+            <annee>au titre de l'année universitaire 2020/2021</annee>
+        </infoEtudiant>
+    </body>
+    
+    
+    <footer>
+        <date>Fait à TANGER, le 9 octobre 2021</date>
+        <Signature>Le Directeur: </Signature>
+        <CodeApogeName>N° étudiant: </CodeApogeName>
+        <CodeApoge>16010186</CodeApoge>
+        
+        <avis>Avis important: il ne peut être délivré qu'un seul exemplaire de cette attestation. Aucun duplicate ne sera fourni. </avis>
+    </footer>
+    
+    
+</attes>

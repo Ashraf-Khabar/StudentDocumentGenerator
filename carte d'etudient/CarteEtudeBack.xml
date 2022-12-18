@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cardB xmlns="http://studentcardBack.org">
+    <nameMinFr1>
+        ROYAUME DU MAROC
+    </nameMinFr1>
+    <nameMinFr2>
+        MINISTRE DE L'EDUCATION NATIONALE
+    </nameMinFr2>
+    <nameMinFr3>
+        DE LA FORMATION PROFESSIONNELLE
+    </nameMinFr3>
+    <nameMinFr4>
+        DE L'ENSEIGNEMENT SUPERIEUR
+    </nameMinFr4>
+    <nameMinFr5>
+        ET DE LA RECHERCHE SCIENTIFIQUE 
+    </nameMinFr5>
+    
+    <nameMinAr1 lang="ar" direction="rtl" >
+        المملكة المغربية 
+    </nameMinAr1>
+    <nameMinAr2 lang="ar">
+        وزارة التربية الوطنية والتكوين المهني
+    </nameMinAr2>
+    <nameMinAr3 lang="ar">
+        والتعليم العالي والبحث العلمي
+    </nameMinAr3>
+    
+    <logoMin uri="logoUae.png"/>
+    
+    <EngageIcon uri ="engag.png"/>
+    <EngageText>ENGAGEMENT</EngageText>
+    
+    <EspritEqIcon uri ="EsEQ.png"/>
+    <EspritEqText> ESPRIT D'EQUIPE </EspritEqText>
+    
+    <EspritInIcon uri ="ESIN.png"/>
+    <EspritInTexte> ESPRIT D'INITIATIVE</EspritInTexte>
+    
+    <TransIcon uri ="trans.png"/>
+    <TransTexte>TRANSPARENCE</TransTexte>
+    
+    
+</cardB>

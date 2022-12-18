@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:b="http://studentcard.org"
+    xmlns:fo="http://www.w3.org/1999/XSL/Format"
+    version="2.0">
+    <xsl:template match="b:card">
+        <fo:root>
+            <fo:layout-master-set>
+                <fo:simple-page-master master-name="simple" page-height="5.5cm" page-width="10cm">
+                    <fo:region-body/>
+                </fo:simple-page-master>
+            </fo:layout-master-set>
+            <fo:page-sequence master-reference="simple">
+                <fo:flow flow-name="xsl-region-body"></fo:flow>
+                    <fo:table>
+                        <fo:table-column column-width="5cm"/>
+                        <fo:table-column column-width="0.3cm"/>
+                        <fo:table-column column-width="2.5cm"/>
+                        <fo:table-body>
+                            <fo:table-row>
+                                <fo:table-cell>
+                                    <fo:block font-size="18pt" font-family="sans-serif">
+                                        <xsl:value-of select="b:lastName"/>
+                                    </fo:block>
+                                    <fo:block font-size="18pt" font-family="sans-serif">
+                                        <xsl:value-of select="b:firstName"/>
+                                    </fo:block>
+                                    <fo:block font-size="18pt" font-family="sans-serif">
+                                        <xsl:value-of select="b:codeApoge"/>
+                                    </fo:block>
+                                </fo:table-cell>
+                                <fo:table-cell/>
+                                <fo:table-cell>
+                                    <xsl:if test="b:photo">
+                                        <fo:block>
+                                            <fo:external-graphic src="sal3.jpg"/>
+                                        </fo:block>
+                                    </xsl:if>
+                                </fo:table-cell>
+                            </fo:table-row>
+                        </fo:table-body>
+                        
+                    </fo:table>
+            </fo:page-sequence>
+        </fo:root>
+        
+    </xsl:template>
+    
+</xsl:stylesheet>

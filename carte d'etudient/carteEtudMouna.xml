@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card xmlns="http://studentcard.org">
+    <logoUae uri="logoUae.jpeg"/>
+    <nameUae>Université Abdelmalek Essaâdi</nameUae>
+    <nameSchool>Ecole Nationale des Sciences Appliquées </nameSchool>
+    <villeSchool>Tanger</villeSchool>
+    <logoEnsa uri="ensat.png"/>
+    <title>CARTE D'ETUDIANT</title>
+    <lastName>EL YOUNSSI</lastName>
+    <firstName>MOUNA</firstName>
+    <codeApoge>17004474</codeApoge>
+    <photo uri="photoMouna.jpg"/>
+    <scanBar uri="scanbar.jpeg"/>
+    <footer>Première Inscription : 2016 / 2017</footer>
+</card>
