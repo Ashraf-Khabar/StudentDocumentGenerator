@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="Affichage_Ing.xsl" ?>
+<?xml version="1.0"?>
 <!DOCTYPE notes SYSTEM "notes.dtd">
 <notes>
     <note>
@@ -9,6 +8,22 @@
         <ClassName>GINF2</ClassName>
         <ModuleName>ProgrammationOrienteeObjet/XML</ModuleName>
         <NoteElement>17</NoteElement>
+    </note>
+     <note>
+        <CNE>44526656</CNE>
+        <FirstName>hassan</FirstName>
+        <LastName>said</LastName>
+        <ClassName>GINF2</ClassName>
+        <ModuleName>ProgrammationOrienteeObjet/XML</ModuleName>
+        <NoteElement>2</NoteElement>
+    </note>
+      <note>
+        <CNE>44526656</CNE>
+        <FirstName>mouad</FirstName>
+        <LastName>adil</LastName>
+        <ClassName>GINF2</ClassName>
+        <ModuleName>ProgrammationOrienteeObjet/XML</ModuleName>
+        <NoteElement>9</NoteElement>
     </note>
     <note>
         <CNE>24585858</CNE>
