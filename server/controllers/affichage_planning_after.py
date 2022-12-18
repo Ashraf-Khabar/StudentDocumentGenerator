@@ -4,12 +4,12 @@ from reportlab.pdfgen.canvas import Canvas
 from lxml import html
 import openpyxl
 import xml.etree.ElementTree as ET
+from lxml import etree, html
 
 
-def affichage_cycle():
-    # Parse the XML and XSL files
-    xml_doc = etree.parse('../affiche_des_notes/Ginf2_Notes.xml')
-    xsl_doc = etree.parse('../affiche_des_notes/Affichage_Ing.xsl')
+def affichage_planning_after():
+    xml_doc = etree.parse('../emploi de temps/EmploiTemps.xml')
+    xsl_doc = etree.parse('../emploi de temps/EmploiTemps.xsl')
 
     # Create a transform object
     transform = etree.XSLT(xsl_doc)
@@ -24,5 +24,6 @@ def affichage_cycle():
     result_html = html.fromstring(result_string)
 
     # Write the HTML document to a file
-    with open('./templates/affichage.html', 'w') as f:
+    with open('./templates/planning_after.html', 'w') as f:
         f.write(html.tostring(result_html).decode())
+
