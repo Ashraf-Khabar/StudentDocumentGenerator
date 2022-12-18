@@ -5,7 +5,7 @@ app = Flask(__name__, template_folder='templates')
 
 
 @app.route('/affichage')
-def home():
+def affichage():
     affichage_cycle()
     return render_template('output.html', template_folder='templates')
 
