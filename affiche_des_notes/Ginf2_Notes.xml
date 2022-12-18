@@ -11,26 +11,10 @@
     </note>
      <note>
         <CNE>44526656</CNE>
-        <FirstName>hassan</FirstName>
-        <LastName>said</LastName>
-        <ClassName>GINF2</ClassName>
+        <FirstName>souad</FirstName>
+        <LastName>imran</LastName>
+        <ClassName>hassan</ClassName>
         <ModuleName>ProgrammationOrienteeObjet/XML</ModuleName>
-        <NoteElement>2</NoteElement>
-    </note>
-      <note>
-        <CNE>44526656</CNE>
-        <FirstName>mouad</FirstName>
-        <LastName>adil</LastName>
-        <ClassName>GINF2</ClassName>
-        <ModuleName>ProgrammationOrienteeObjet/XML</ModuleName>
-        <NoteElement>9</NoteElement>
-    </note>
-    <note>
-        <CNE>24585858</CNE>
-        <FirstName>zakaria</FirstName>
-        <LastName>dkhissi</LastName>
-        <ClassName>GINF2</ClassName>
-        <ModuleName>ProgrammationOrienteeObjet/XML</ModuleName>
-        <NoteElement>20</NoteElement>
+        <NoteElement>10</NoteElement>
     </note>
 </notes>

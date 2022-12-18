@@ -6,33 +6,33 @@
     <xsl:template match="/">
         <html>
             <center>
-                <table>
+                <table style="border-collapse: collapse">
                     <tr>
-                        <th style="margin-left: 20px">
-                            <img src="logoUae.png" width="110" height="100"/>
+                        <th style="margin-left: 40px">
+                            <img src="../templates/img/logoUae.png" width="100" height=""/>
                         </th>
                         <th style="margin-left: 105px">
-                            <h1 style="color : #0F4494;font-family: Podkova">ECOLE NATIONAL DES SCIENCES APPLIQUEE DE
+                            <h1 style="color : #152e55;font-family: Bitstream Vera Sans Mono, Monaco, Courier New, Courier, monospace">ECOLE NATIONAL DES SCIENCES APPLIQUEE DE
                                 TANGER
                             </h1>
                         </th>
 
                         <th style="margin-left: 80px">
-                            <img src="ensa.png" width="150" height="100"/>
+                            <img src="./img/ensa.png" width="150" height="100"/>
                         </th>
                     </tr>
                 </table>
                 <body>
 
-                    <h2>AFFICHAGE DU MODULE GINF31 (Avant Rattrapage)</h2>
-                    <table border="1">
-                        <tr bgcolor="#9acd32">
-                            <th>CNE</th>
-                            <th>FirstName</th>
-                            <th>LastName</th>
-                            <th>ClassName</th>
-                            <th>ModuleName</th>
-                            <th>Note</th>
+                    <h2>Affichage du module GINF31 (Avant Rattrapage)</h2>
+                    <table border="1" style="border-collapse: collapse" >
+                        <tr bgcolor="#0c344f">
+                            <th style="color: aliceblue" >CNE</th>
+                            <th style="color: aliceblue" >FirstName</th>
+                            <th style="color: aliceblue" >LastName</th>
+                            <th style="color: aliceblue">ClassName</th>
+                            <th style="color: aliceblue" >ModuleName</th>
+                            <th style="color: aliceblue">Note</th>
                         </tr>
                         <xsl:for-each select="notes/note">
                             <tr>
@@ -76,14 +76,14 @@
                     <br/>
                     <br/>
                     <h2>la liste des étudiants qui doivent passer le rattrapage pour le Module GINF31</h2>
-                    <table border="1">
-                        <tr bgcolor="#9acd32">
-                            <th>CNE</th>
-                            <th>FirstName</th>
-                            <th>LastName</th>
-                            <th>ClassName</th>
-                            <th>ModuleName</th>
-                            <th>Note</th>
+                    <table border="1" style="border-collapse: collapse">
+                        <tr bgcolor="#0c344f">
+                            <th style="color: aliceblue">CNE</th>
+                            <th style="color: aliceblue">FirstName</th>
+                            <th style="color: aliceblue">LastName</th>
+                            <th style="color: aliceblue">ClassName</th>
+                            <th style="color: aliceblue">ModuleName</th>
+                            <th style="color: aliceblue">Note</th>
                         </tr>
                         <xsl:for-each select="notes/note">
                             <xsl:if test="NoteElement &lt; 12">
@@ -117,15 +117,15 @@
                     <hr/>
                     <br/>
                     <br/>
-                    <h2>AFFICHAGE DU MODULE GINF31 (Résultat après le rattrapage)</h2>
-                    <table border="1">
-                        <tr bgcolor="#9acd32">
-                            <th>CNE</th>
-                            <th>FirstName</th>
-                            <th>LastName</th>
-                            <th>ClassName</th>
-                            <th>ModuleName</th>
-                            <th>Résultat</th>
+                    <h2>Affichage du module GINF31 (Résultat après le rattrapage)</h2>
+                    <table border="1" style="border-collapse: collapse">
+                        <tr bgcolor="#0c344f">
+                            <th style="color: aliceblue">CNE</th>
+                            <th style="color: aliceblue">FirstName</th>
+                            <th style="color: aliceblue">LastName</th>
+                            <th style="color: aliceblue">ClassName</th>
+                            <th style="color: aliceblue">ModuleName</th>
+                            <th style="color: aliceblue">Résultat</th>
                         </tr>
                         <xsl:for-each select="notes/note">
                             <tr>

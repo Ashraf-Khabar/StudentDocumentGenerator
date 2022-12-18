@@ -2,6 +2,44 @@ from lxml import etree
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen.canvas import Canvas
 from lxml import html
+import openpyxl
+import xml.etree.ElementTree as ET
+
+
+def insert_data_from_excel(excel_file, xml_file):
+    # Read the Excel file
+    wb = openpyxl.load_workbook(excel_file)
+    sheet = wb.active
+
+    # Parse the XML file
+    xml_root = ET.parse(xml_file).getroot()
+
+    # Iterate over the rows in the Excel file
+    for row in sheet.iter_rows(min_row=2):
+        cne = row[0].value
+        first_name = row[1].value
+        last_name = row[2].value
+        class_name = row[3].value
+        module_name = row[4].value
+        note = row[5].value
+
+        # Create a new 'note' element and add it to the XML document
+        note_element = ET.SubElement(xml_root, "note")
+        cne_element = ET.SubElement(note_element, "CNE")
+        cne_element.text = cne
+        first_name_element = ET.SubElement(note_element, "FirstName")
+        first_name_element.text = first_name
+        last_name_element = ET.SubElement(note_element, "LastName")
+        last_name_element.text = last_name
+        class_name_element = ET.SubElement(note_element, "ClassName")
+        class_name_element.text = class_name
+        module_name_element = ET.SubElement(note_element, "ModuleName")
+        module_name_element.text = module_name
+        note_element_element = ET.SubElement(note_element, "NoteElement")
+        note_element_element.text = note
+
+    # Write the modified XML document to a file
+    ET.ElementTree(xml_root).write(xml_file)
 
 
 def affichage_cycle():
