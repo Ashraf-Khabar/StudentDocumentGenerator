@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<emploi>
+<emploi xmlns="http://GINF2Emploi.org">
     <TopBar>
         <logoUae uri="logoUae.png"/>
         <logoEnsa uri="ensa.png"/>

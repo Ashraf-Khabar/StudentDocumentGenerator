@@ -4,7 +4,7 @@
                 xmlns:fo="http://www.w3.org/1999/XSL/Format"
                 version="1.0">
     <xsl:template match="e:emploi">
-        <fo:html>
+        <fo:root>
             <fo:layout-master-set>
                 <fo:simple-page-master master-name="simplePage" page-height="22cm" page-width="28cm">
                     <fo:region-body/>
@@ -1390,7 +1390,7 @@
 
                 </fo:flow>
             </fo:page-sequence>
-        </fo:html>
+        </fo:root>
     </xsl:template>
 
 </xsl:stylesheet>
