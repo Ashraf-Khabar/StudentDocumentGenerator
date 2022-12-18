@@ -7,8 +7,8 @@ import xml.etree.ElementTree as ET
 
 
 def affichage_attestation():
-    xml_doc = etree.parse('../QST4_AttestationReussite/AttestationReussite.xml')
-    xsl_doc = etree.parse('../QST4_AttestationReussite/AttestationReussite.xsl')
+    xml_doc = etree.parse('../Attestation_de_Reussite/AttestationReussite.xml')
+    xsl_doc = etree.parse('../Attestation_de_Reussite/AttestationReussite.xsl')
 
     # Create a transform object
     transform = etree.XSLT(xsl_doc)
