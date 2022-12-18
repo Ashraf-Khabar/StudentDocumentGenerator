@@ -2,7 +2,7 @@ const fs = require('fs');
 const xml2js = require('xml2js');
 const PDFDocument = require('pdfkit');
 const express = require("express");
-const xslt = require('xslt-processor');
+const xsltProcessor = require('xslt-processor');
 const xslt4node = require("xslt4node");
 
 const app = express()
@@ -83,21 +83,18 @@ fs.readFile('../affiche_des_notes/Ginf2_Notes.xml', 'utf8', (err, xml) => {
         console.error(err);
         return;
     }
+
     // Read the XSL file
     fs.readFile('../affiche_des_notes/Affichage_Ing.xsl', 'utf8', (err, xsl) => {
         if (err) {
             console.error(err);
             return;
         }
-        console.log(xslt4node);
-
+        console.log(xsl);
         // Apply the XSL style to the XML data
-        xslt4node.transform(xslt, (err, transformedXml) => {
+        try {
+            const transformedXml = xsltProcessor.xsltProcess(xml, xsl) ;
             console.log(transformedXml);
-            if (err) {
-                console.error(err);
-                return;
-            }
 
             // Extract the relevant information from the transformed XML data
             const notes = transformedXml.notes.note;
@@ -137,7 +134,7 @@ fs.readFile('../affiche_des_notes/Ginf2_Notes.xml', 'utf8', (err, xml) => {
             }
 
             // Save the PDF document to a file
-            const pdfFile = './file.pdf';
+            const pdfFile = 'file.pdf';
             doc.pipe(fs.createWriteStream(pdfFile));
             doc.end();
 
@@ -151,7 +148,10 @@ fs.readFile('../affiche_des_notes/Ginf2_Notes.xml', 'utf8', (err, xml) => {
                     }
                 });
             });
-        })
+        }catch (err){
+            console.log(err);
+            return;
+        }
     })
 })
 
