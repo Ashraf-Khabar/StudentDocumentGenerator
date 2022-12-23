@@ -4,240 +4,972 @@
     <logoUae uri="logoUae.jpeg"/>
     <classe>GINF2</classe>
     <annee>2020</annee>
-    <nomEtud>El Younssi</nomEtud>
-    <prenomEtud> Mouna </prenomEtud>
-    <CNE> 17004474 </CNE>
-    <Modules>
-        <Module>
-            <codeModule c="GINF31" />
-            <designationModule name=" Designation Module">Programmation Orientée Objet et XML</designationModule>
-            <AnneeModule a="2020">2020</AnneeModule>
-            <NoteModule name="Note/20">
-                16
-                <!--  {
-                let $items:=(doc("ReleveNotes.xml")//Module[codeModule/@c="GINF31"]//NoteMatiere)
-                return <NoteModule > { avg($items)} </NoteModule>
-                }-->
-            </NoteModule>
-            <Matieres>
-                <Matiere name= "Désignation matière">
-                    <DesignationMatiere>Programmation Orientée Objet : Java</DesignationMatiere>
-                    <NoteMatiere name ="Note/20"> 16.25</NoteMatiere>
-                </Matiere>
-                <Matiere>
-                    <DesignationMatiere>XML et Applications</DesignationMatiere>
-                    <NoteMatiere> 15.75</NoteMatiere>
-                </Matiere>
-            </Matieres>
-        </Module>
-        <Module>
-            <codeModule c="GINF32"/>
-            <designationModule>Qualité et approche processus</designationModule>
-            <AnneeModule a="2020">2020</AnneeModule>
-            <NoteModule>16.00</NoteModule>
-            <Matieres>
-                <Matiere>
-                    <DesignationMatiere>Assurance contrôle qualité (ISO 9001)</DesignationMatiere>
-                    <NoteMatiere> 16.00</NoteMatiere>
-                </Matiere>
-                <Matiere>
-                    <DesignationMatiere>Cycle de vie Logiciel et méthodes agiles</DesignationMatiere>
-                    <NoteMatiere> 16.25</NoteMatiere>
-                </Matiere>
-                <Matiere>
-                    <DesignationMatiere>Maîtrise et optimisation des processus </DesignationMatiere>
-                    <NoteMatiere> 15.75</NoteMatiere>
-                </Matiere>
-            </Matieres>
-        </Module>
-        <Module>
-            <codeModule c="GINF33"/>
-            <designationModule>Modélisation orientée objet et IHM</designationModule>
-            <AnneeModule a="2020">2020</AnneeModule>
-            <NoteModule>15.00</NoteModule>
-            <Matieres>
-                <Matiere>
-                    <DesignationMatiere>Modélisation orientée objet UML</DesignationMatiere>
-                    <NoteMatiere> 14.00</NoteMatiere>
-                </Matiere>
-                <Matiere>
-                    <DesignationMatiere>Interaction Homme Machine</DesignationMatiere>
-                    <NoteMatiere> 16.00</NoteMatiere>
-                </Matiere>
-            </Matieres>
-        </Module>
-        <Module>
-            <codeModule c="GINF34"/>
-            <designationModule>Bases de données avancées I</designationModule>
-            <AnneeModule a="2020">2020</AnneeModule>
-            <NoteModule>16.00</NoteModule>
-            <Matieres>
-                <Matiere>
-                    <DesignationMatiere>Optimisation et Qualité de Base de données</DesignationMatiere>
-                    <NoteMatiere> 15.00</NoteMatiere>
-                </Matiere>
-                <Matiere>
-                    <DesignationMatiere>Adminstartion et sécurité des bdd</DesignationMatiere>
-                    <NoteMatiere> 16.00</NoteMatiere>
-                </Matiere>
-                <Matiere>
-                    <DesignationMatiere>Bases de données NoSQL</DesignationMatiere>
-                    <NoteMatiere> 17.00</NoteMatiere>
-                </Matiere>
-            </Matieres>
-        </Module>
-        <Module>
-            <codeModule c="GINF35"/>
-            <designationModule>Administration et programmation système</designationModule>
-            <AnneeModule a="2020">2020</AnneeModule>
-            <NoteModule>14.50</NoteModule>
-            <Matieres>
-                <Matiere>
-                    <DesignationMatiere>Administartion systèmes</DesignationMatiere>
-                    <NoteMatiere> 15.00</NoteMatiere>
-                </Matiere>
-                <Matiere>
-                    <DesignationMatiere>Programmation systèmes</DesignationMatiere>
-                    <NoteMatiere> 14.00</NoteMatiere>
-                </Matiere>
-            </Matieres>
-        </Module>
-        <Module>
-            <codeModule c="GINF36"/>
-            <designationModule>Langues et communication 2</designationModule>
-            <AnneeModule a="2020">2020</AnneeModule>
-            <NoteModule>16</NoteModule>
-            <Matieres>
-                <Matiere>
-                    <DesignationMatiere>Espagnol II</DesignationMatiere>
-                    <NoteMatiere> 15.50</NoteMatiere>
-                </Matiere>
-                <Matiere>
-                    <DesignationMatiere>Anglais professionnel</DesignationMatiere>
-                    <NoteMatiere> 17.50</NoteMatiere>
-                </Matiere>
-                <Matiere>
-                    <DesignationMatiere>Techniques de Communication</DesignationMatiere>
-                    <NoteMatiere> 15.00</NoteMatiere>
-                </Matiere>
-            </Matieres>
-        </Module>
-        <Module>
-            <codeModule c="GINF41"/>
-            <designationModule>Technologies distribuées</designationModule>
-            <AnneeModule a="2020">2020</AnneeModule>
-            <NoteModule>16.50</NoteModule>
-            <Matieres>
-                <Matiere>
-                    <DesignationMatiere>Introduction à J2EE</DesignationMatiere>
-                    <NoteMatiere> 15.50</NoteMatiere>
-                </Matiere>
-                <Matiere>
-                    <DesignationMatiere>Programmation en C#</DesignationMatiere>
-                    <NoteMatiere> 17.50</NoteMatiere>
-                </Matiere>
-            </Matieres>
-        </Module>
-        <Module>
-            <codeModule c="GINF42"/>
-            <designationModule>Bases de données avancées II et Cloud</designationModule>
-            <AnneeModule a="2020">2020</AnneeModule>
-            <NoteModule>16.50</NoteModule>
-            <Matieres>
-                <Matiere>
-                    <DesignationMatiere>Gestion de données complexe</DesignationMatiere>
-                    <NoteMatiere> 15.50</NoteMatiere>
-                </Matiere>
-                <Matiere>
-                    <DesignationMatiere>Gestion des données distribuées</DesignationMatiere>
-                    <NoteMatiere> 17.50</NoteMatiere>
-                </Matiere>
-                <Matiere>
-                    <DesignationMatiere>Cloud computing et infogérance</DesignationMatiere>
-                    <NoteMatiere> 16.50</NoteMatiere>
-                </Matiere>
-            </Matieres>
-        </Module>
-        <Module>
-            <codeModule c="GINF43"/>
-            <designationModule>Traitement de l'image</designationModule>
-            <AnneeModule a="2020">2020</AnneeModule>
-            <NoteModule>16.50</NoteModule>
-            <Matieres>
-                <Matiere>
-                    <DesignationMatiere>Traitement d'Image</DesignationMatiere>
-                    <NoteMatiere> 15.50</NoteMatiere>
-                </Matiere>
-                <Matiere>
-                    <DesignationMatiere>Vision numérique</DesignationMatiere>
-                    <NoteMatiere> 17.50</NoteMatiere>
-                </Matiere>
-                <Matiere>
-                    <DesignationMatiere>processus Stochastique</DesignationMatiere>
-                    <NoteMatiere> 16.50</NoteMatiere>
-                </Matiere>
-            </Matieres>
-        </Module>
-        <Module>
-            <codeModule c="GINF44"/>
-            <designationModule>Programmation déclarative et TAV</designationModule>
-            <AnneeModule a="2020">2020</AnneeModule>
-            <NoteModule>16.50</NoteModule>
-            <Matieres>
-                <Matiere>
-                    <DesignationMatiere>Programmation Déclarative</DesignationMatiere>
-                    <NoteMatiere> 15.50</NoteMatiere>
-                </Matiere>
-                <Matiere>
-                    <DesignationMatiere>Technique Algorithmique Avancée</DesignationMatiere>
-                    <NoteMatiere> 17.50</NoteMatiere>
-                </Matiere>
-            </Matieres>
-        </Module>
-        <Module>
-            <codeModule c="GINF45"/>
-            <designationModule>Sécurité et cryptographie</designationModule>
-            <AnneeModule a="2020">2020</AnneeModule>
-            <NoteModule>16.50</NoteModule>
-            <Matieres>
-                <Matiere>
-                    <DesignationMatiere>Sécurité des systèmes</DesignationMatiere>
-                    <NoteMatiere> 15.50</NoteMatiere>
-                </Matiere>
-                <Matiere>
-                    <DesignationMatiere>Cryptographie</DesignationMatiere>
-                    <NoteMatiere> 17.50</NoteMatiere>
-                </Matiere>
-            </Matieres>
-        </Module>
-        <Module>
-            <codeModule c="GINF46"/>
-            <designationModule>Management de l'entreprise 2</designationModule>
-            <AnneeModule a="2020">2020</AnneeModule>
-            <NoteModule>16.333</NoteModule>
-            <Matieres>
-                <Matiere>
-                    <DesignationMatiere>Economie et Comptabilité 2</DesignationMatiere>
-                    <NoteMatiere> 15.50</NoteMatiere>
-                </Matiere>
-                <Matiere>
-                    <DesignationMatiere>Projets Collectifs et Stages</DesignationMatiere>
-                    <NoteMatiere> 17.50</NoteMatiere>
-                </Matiere>
-                <Matiere>
-                    <DesignationMatiere>Management de Projet</DesignationMatiere>
-                    <NoteMatiere> 16.00</NoteMatiere>
-                </Matiere>
-            </Matieres>
-        </Module>
-        
-    </Modules>
-    <Resultat>14.5</Resultat>
-    
-    
-    
-    
-    
+
+    <listeEtudiants>
+        <Etudiant CNE="17004474">
+            <Nom>El Younssi</Nom>
+            <Prenom>Mouna</Prenom>
+            <Notes>
+                <Note1>16.00</Note1>
+                <Note2>13.50</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>14.66</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.78</Note8>
+                <Note9>15.00</Note9>
+                <Note10>13.50</Note10>
+                <Note11>14.5</Note11>
+                <Note12>17.00</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="16010186">
+            <Nom>El Aakkouchi</Nom>
+            <Prenom>Salma</Prenom>
+            <Notes>
+                <Note1>16.00</Note1>
+                <Note2>13.50</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>14.66</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.78</Note8>
+                <Note9>15.00</Note9>
+                <Note10>13.50</Note10>
+                <Note11>14.5</Note11>
+                <Note12>17.00</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="16006063">
+            <Nom>Chihi</Nom>
+            <Prenom>Hasnae</Prenom>
+            <Notes>
+                <Note1>16.00</Note1>
+                <Note2>13.50</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>14.66</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.78</Note8>
+                <Note9>15.00</Note9>
+                <Note10>13.50</Note10>
+                <Note11>14.5</Note11>
+                <Note12>17.00</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17003791">
+            <Nom>Kherraf</Nom>
+            <Prenom>Taha</Prenom>
+            <Notes>
+                <Note1>16.00</Note1>
+                <Note2>13.50</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>14.66</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.78</Note8>
+                <Note9>15.00</Note9>
+                <Note10>13.50</Note10>
+                <Note11>14.5</Note11>
+                <Note12>17.00</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17004437">
+            <Nom>Sahel</Nom>
+            <Prenom>Ikrame</Prenom>
+            <Notes>
+                <Note1>16.00</Note1>
+                <Note2>13.50</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>14.66</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.78</Note8>
+                <Note9>15.00</Note9>
+                <Note10>13.50</Note10>
+                <Note11>14.5</Note11>
+                <Note12>17.00</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17003812">
+            <Nom>Jadar</Nom>
+            <Prenom>Mohamed</Prenom>
+            <Notes>
+                <Note1>16.00</Note1>
+                <Note2>13.50</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>14.66</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.78</Note8>
+                <Note9>15.00</Note9>
+                <Note10>13.50</Note10>
+                <Note11>14.5</Note11>
+                <Note12>17.00</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17004448">
+            <Nom>Essar-rhini</Nom>
+            <Prenom>Souhaib</Prenom>
+            <Notes>
+                <Note1>16.00</Note1>
+                <Note2>13.50</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>14.66</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.78</Note8>
+                <Note9>15.00</Note9>
+                <Note10>13.50</Note10>
+                <Note11>14.5</Note11>
+                <Note12>17.00</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17004445">
+            <Nom>Adraoui</Nom>
+            <Prenom>Khaoula</Prenom>
+            <Notes>
+                <Note1>16.00</Note1>
+                <Note2>13.50</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>14.66</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.78</Note8>
+                <Note9>15.00</Note9>
+                <Note10>13.50</Note10>
+                <Note11>14.5</Note11>
+                <Note12>17.00</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17005951">
+            <Nom>Ahmadoun</Nom>
+            <Prenom>Mohamed</Prenom>
+            <Notes>
+                <Note1>14.25</Note1>
+                <Note2>13.5</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>13.66</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.78</Note8>
+                <Note9>15.00</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>14.5</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17003373">
+            <Nom>Ameziane</Nom>
+            <Prenom>Chaimae</Prenom>
+            <Notes>
+                <Note1>15.00</Note1>
+                <Note2>14.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>13.66</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.78</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>15.20</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="16000421">
+            <Nom>Ben taher</Nom>
+            <Prenom>Mohamed</Prenom>
+            <Notes>
+                <Note1>16.00</Note1>
+                <Note2>14.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.00</Note5>
+                <Note6>13.66</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.78</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.55</Note11>
+                <Note12>13.20</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17006268">
+            <Nom>Benabdellah</Nom>
+            <Prenom>Adnane</Prenom>
+            <Notes>
+                <Note1>15.25</Note1>
+                <Note2>14.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>13.66</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.78</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>15.20</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17003531">
+            <Nom>Bouabid</Nom>
+            <Prenom>Iness</Prenom>
+            <Notes>
+                <Note1>16.00</Note1>
+                <Note2>14.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.20</Note4>
+                <Note5>15.85</Note5>
+                <Note6>13.66</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.78</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>13.75</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17003833">
+            <Nom>Charfi</Nom>
+            <Prenom>Youssef</Prenom>
+            <Notes>
+                <Note1>15.00</Note1>
+                <Note2>14.25</Note2>
+                <Note3>13.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>13.66</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.78</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>14.00</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17005894">
+            <Nom>Dahchar</Nom>
+            <Prenom>Mohammed Said</Prenom>
+            <Notes>
+                <Note1>16.00</Note1>
+                <Note2>14.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>13.66</Note6>
+                <Note7>18.5</Note7>
+                <Note8>14.78</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>16.20</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17003240">
+            <Nom>El Azizi</Nom>
+            <Prenom>Hamza</Prenom>
+            <Notes>
+                <Note1>14.00</Note1>
+                <Note2>14.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>16.66</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.78</Note8>
+                <Note9>14.5</Note9>
+                <Note10>12.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>15.20</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17004484">
+            <Nom>El Haddaji</Nom>
+            <Prenom>Mohamed Amine</Prenom>
+            <Notes>
+                <Note1>15.00</Note1>
+                <Note2>14.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>13.66</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.78</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>15.20</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17007213">
+            <Nom>El Manssouri</Nom>
+            <Prenom>Issam</Prenom>
+            <Notes>
+                <Note1>15.21</Note1>
+                <Note2>17.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>13.66</Note6>
+                <Note7>15.5</Note7>
+                <Note8>14.78</Note8>
+                <Note9>13.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>16.00</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17003312">
+            <Nom>El Moustachir</Nom>
+            <Prenom>Yassine</Prenom>
+            <Notes>
+                <Note1>15.81</Note1>
+                <Note2>17.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>13.66</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.78</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>14.00</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17003435">
+            <Nom>Elkhayyat</Nom>
+            <Prenom>Mohammad elamine</Prenom>
+            <Notes>
+                <Note1>14.55</Note1>
+                <Note2>17.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>13.66</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.78</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>14.86</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17003902">
+            <Nom>Falaki</Nom>
+            <Prenom>Youssef</Prenom>
+            <Notes>
+                <Note1>16.00</Note1>
+                <Note2>17.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>15.66</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.78</Note8>
+                <Note9>14.5</Note9>
+                <Note10>12.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>14.00</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17004052">
+            <Nom>Achahbar</Nom>
+            <Prenom>Adnane</Prenom>
+            <Notes>
+                <Note1>14.96</Note1>
+                <Note2>17.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>13.66</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.78</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>15.50</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17004621">
+            <Nom>Laidouni</Nom>
+            <Prenom>Youssef</Prenom>
+            <Notes>
+                <Note1>15.01</Note1>
+                <Note2>17.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>13.66</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.78</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>15.25</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17003906">
+            <Nom>Malawi</Nom>
+            <Prenom>Imane</Prenom>
+            <Notes>
+                <Note1>15.01</Note1>
+                <Note2>17.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>13.66</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.78</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>15.25</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17004463">
+            <Nom>Mansour</Nom>
+            <Prenom>El Mehdi</Prenom>
+            <Notes>
+                <Note1>15.01</Note1>
+                <Note2>17.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>13.66</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.78</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>14.00</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17004490">
+            <Nom>Maztaoui</Nom>
+            <Prenom>Ilias</Prenom>
+            <Notes>
+                <Note1>14.56</Note1>
+                <Note2>17.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>13.66</Note6>
+                <Note7>16.75</Note7>
+                <Note8>14.78</Note8>
+                <Note9>14.5</Note9>
+                <Note10>12.98</Note10>
+                <Note11>14.5</Note11>
+                <Note12>13.5</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17008009">
+            <Nom>Noufel</Nom>
+            <Prenom>Salima</Prenom>
+            <Notes>
+                <Note1>15.55</Note1>
+                <Note2>17.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>13.66</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.78</Note8>
+                <Note9>14.5</Note9>
+                <Note10>16.00</Note10>
+                <Note11>14.5</Note11>
+                <Note12>14.33</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17006208">
+            <Nom>Serrad</Nom>
+            <Prenom>Hajar</Prenom>
+            <Notes>
+                <Note1>16.05</Note1>
+                <Note2>17.25</Note2>
+                <Note3>14.66</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>13.66</Note6>
+                <Note7>16.5</Note7>
+                <Note8>12.5</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>14.55</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17009146">
+            <Nom>Ebenezer Stéphane</Nom>
+            <Prenom>Tolly</Prenom>
+            <Notes>
+                <Note1>15.81</Note1>
+                <Note2>17.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>13.66</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.78</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>14.00</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17008402">
+            <Nom>HERMAN JOEL</Nom>
+            <Prenom>TATANI </Prenom>
+            <Notes>
+                <Note1>13.40</Note1>
+                <Note2>17.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>12.40</Note6>
+                <Note7>15.75</Note7>
+                <Note8>14.75</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>12.75</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17008409">
+            <Nom>Joseph </Nom>
+            <Prenom>NGAN MINTAMAK</Prenom>
+            <Notes>
+                <Note1>15.81</Note1>
+                <Note2>17.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>13.39</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.75</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>12.75</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17004661">
+            <Nom>Aissa</Nom>
+            <Prenom>Maria</Prenom>
+            <Notes>
+                <Note1>15.81</Note1>
+                <Note2>17.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>12.40</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.75</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>12.75</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17005996">
+            <Nom>Bouhal</Nom>
+            <Prenom>Bassma</Prenom>
+            <Notes>
+                <Note1>14.81</Note1>
+                <Note2>15.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>12.40</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.75</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>14.80</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="18010230">
+            <Nom>Dabdoubi</Nom>
+            <Prenom>Aymane</Prenom>
+            <Notes>
+                <Note1>15.81</Note1>
+                <Note2>16.00</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>12.40</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.75</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>16.66</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17003526">
+            <Nom>Echtioui</Nom>
+            <Prenom>Salma</Prenom>
+            <Notes>
+                <Note1>14.56</Note1>
+                <Note2>17.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>12.40</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.75</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>12.75</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17005999">
+            <Nom>El Hassani</Nom>
+            <Prenom>Sokayna</Prenom>
+            <Notes>
+                <Note1>15.81</Note1>
+                <Note2>16.00</Note2>
+                <Note3>12.85</Note3>
+                <Note4>15.00</Note4>
+                <Note5>16.44</Note5>
+                <Note6>12.40</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.75</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>13.66</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17005899">
+            <Nom>El Jattari</Nom>
+            <Prenom>Mohammed</Prenom>
+            <Notes>
+                <Note1>14.41</Note1>
+                <Note2>17.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>12.40</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.75</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>12.75</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17004681">
+            <Nom>El Ouzani</Nom>
+            <Prenom>Zohra</Prenom>
+            <Notes>
+                <Note1>15.00</Note1>
+                <Note2>17.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.68</Note4>
+                <Note5>15.85</Note5>
+                <Note6>12.40</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.00</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>13.25</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17002181">
+            <Nom>El-Asli</Nom>
+            <Prenom>Mariam</Prenom>
+            <Notes>
+                <Note1>12.81</Note1>
+                <Note2>17.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>14.40</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.75</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>12.75</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="20010861">
+            <Nom>Jaadar</Nom>
+            <Prenom>Sami</Prenom>
+            <Notes>
+                <Note1>15.71</Note1>
+                <Note2>17.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.35</Note5>
+                <Note6>13.40</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.75</Note8>
+                <Note9>12.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>15.5</Note11>
+                <Note12>13.75</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="16003502">
+            <Nom>Kaadiri</Nom>
+            <Prenom>Abdelatif</Prenom>
+            <Notes>
+                <Note1>14.81</Note1>
+                <Note2>16.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>13.40</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.75</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>12.75</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="15000241">
+            <Nom>Mossaouir</Nom>
+            <Prenom>Firdaous</Prenom>
+            <Notes>
+                <Note1>15.00</Note1>
+                <Note2>16.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>12.40</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.75</Note8>
+                <Note9>14.5</Note9>
+                <Note10>16.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>15.75</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17005887">
+            <Nom>OU-MECHTAK</Nom>
+            <Prenom>Rida</Prenom>
+            <Notes>
+                <Note1>14.65</Note1>
+                <Note2>17</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>12.40</Note6>
+                <Note7>16.5</Note7>
+                <Note8>13.75</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>15.75</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17007307">
+            <Nom>Rahmani</Nom>
+            <Prenom>Mohammed</Prenom>
+            <Notes>
+                <Note1>15.81</Note1>
+                <Note2>17.25</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>12.40</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.75</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>12.75</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17005875">
+            <Nom>Sahli</Nom>
+            <Prenom>Kawtar</Prenom>
+            <Notes>
+                <Note1>14.65</Note1>
+                <Note2>17.00</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>12.40</Note6>
+                <Note7>16.5</Note7>
+                <Note8>13.75</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>14.5</Note11>
+                <Note12>15.75</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17005922">
+            <Nom>Salmoun</Nom>
+            <Prenom>Insaf</Prenom>
+            <Notes>
+                <Note1>13.2</Note1>
+                <Note2>17</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>18.00</Note6>
+                <Note7>16.5</Note7>
+                <Note8>13.75</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>12.5</Note11>
+                <Note12>16.00</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="16008636">
+            <Nom>SISTI</Nom>
+            <Prenom>Mohammed Karim</Prenom>
+            <Notes>
+                <Note1>15.00</Note1>
+                <Note2>17</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>14.00</Note6>
+                <Note7>16.5</Note7>
+                <Note8>14.86</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>12.5</Note11>
+                <Note12>16.00</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17003772">
+            <Nom>Bouzekraoui</Nom>
+            <Prenom>Asmae</Prenom>
+            <Notes>
+                <Note1>13.2</Note1>
+                <Note2>17</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.85</Note5>
+                <Note6>18.00</Note6>
+                <Note7>16.5</Note7>
+                <Note8>13.75</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>12.5</Note11>
+                <Note12>16.00</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="17004477">
+            <Nom>Elkasmi</Nom>
+            <Prenom>fatima zohra</Prenom>
+            <Notes>
+                <Note1>14.6</Note1>
+                <Note2>17</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.75</Note4>
+                <Note5>15.25</Note5>
+                <Note6>18.00</Note6>
+                <Note7>16.5</Note7>
+                <Note8>13.5</Note8>
+                <Note9>14.5</Note9>
+                <Note10>16.5</Note10>
+                <Note11>12.5</Note11>
+                <Note12>14.25</Note12>
+            </Notes>
+
+        </Etudiant>
+        <Etudiant CNE="19008875">
+            <Nom>Mchachti Fezzazi</Nom>
+            <Prenom>Soumiya</Prenom>
+            <Notes>
+                <Note1>13.5</Note1>
+                <Note2>18</Note2>
+                <Note3>14.75</Note3>
+                <Note4>15.00</Note4>
+                <Note5>15.25</Note5>
+                <Note6>17.00</Note6>
+                <Note7>16.25</Note7>
+                <Note8>13.75</Note8>
+                <Note9>14.5</Note9>
+                <Note10>17.75</Note10>
+                <Note11>12.5</Note11>
+                <Note12>14.25</Note12>
+            </Notes>
+
+        </Etudiant>
+    </listeEtudiants>
+
+    <listeModules>
+        <Module code="GINF31"/>
+        <Module code="GINF32"/>
+        <Module code="GINF33"/>
+        <Module code="GINF34"/>
+        <Module code="GINF35"/>
+        <Module code="GINF36"/>
+        <Module code="GINF41"/>
+        <Module code="GINF42"/>
+        <Module code="GINF43"/>
+        <Module code="GINF44"/>
+        <Module code="GINF45"/>
+        <Module code="GINF46"/>
+    </listeModules>
 </ReleveN>
-
-
