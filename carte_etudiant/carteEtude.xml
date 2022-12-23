@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<card xmlns="http://studentcard.org">
+    <logoUae uri="logoUae.png"/>
+    <nameUae>Université Abdelmalek Essaâdi</nameUae>
+    <nameSchool>Ecole Nationale des Sciences Appliquées </nameSchool>
+    <villeSchool>Tanger</villeSchool>
+    <logoEnsa uri="ensat.png"/>
+    <title>CARTE D'ETUDIANT</title>
+    <lastName>Khabar</lastName>
+    <firstName>achraf</firstName>
+    <codeApoge>12475858</codeApoge>
+    <photo uri="Achraf_KHABAR.png"/>
+    <scanBar uri="scanbar.png"/>
+    <footer>Première Inscription : 2019 / 2020</footer>
+</card>
