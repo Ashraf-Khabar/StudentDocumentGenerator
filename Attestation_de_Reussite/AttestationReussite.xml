@@ -19,11 +19,11 @@
     <body>
         <header>Le Directeur de l'Ecole Natioale des Sciences Appliquées de Tanger atteste que</header>
         <infoEtudiant>
-            <nom>monsieur achraf khabar</nom>
+            <nom>Achraf khabar</nom>
             <naissance>née le 23 avril 2000 à CASABLANCA</naissance>
             <message>a été déclarée admis au niveau</message>
             <nivAdmis>3° Année Génie Informatique (Systèmes d'information)</nivAdmis>
-            <annee>au titre de l'année universitaire 2020/2021</annee>
+            <annee>au titre de l'année universitaire 2022 / 2023</annee>
         </infoEtudiant>
     </body>
     
@@ -32,7 +32,7 @@
         <date>Fait à TANGER, le 9 octobre 2021</date>
         <Signature>Le Directeur: </Signature>
         <CodeApogeName>N° étudiant: </CodeApogeName>
-        <CodeApoge>16010186</CodeApoge>
+        <CodeApoge>252558558</CodeApoge>
         
         <avis>Avis important: il ne peut être délivré qu'un seul exemplaire de cette attestation. Aucun duplicate ne sera fourni. </avis>
     </footer>
