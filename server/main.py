@@ -10,7 +10,7 @@ from flask import Response
 
 app = Flask(__name__, template_folder='templates')
 
-@app.route('/export_to_xml', methods=['GET'])
+@app.route('/affichage', methods=['GET'])
 def export_to_xml():
     # Read the Excel file into a Pandas DataFrame
     df = pd.read_excel('C:\\Users\\ashraf\\Documents\\GitHub\\PDF-school-generator-from-XML-files-project\\server\\data_excel\\affichage.xlsx')
