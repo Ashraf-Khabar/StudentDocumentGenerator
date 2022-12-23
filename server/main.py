@@ -7,6 +7,9 @@ import pandas as pd
 from xml.etree.ElementTree import Element, SubElement, tostring
 from lxml import etree
 from flask import Response
+from lxml.builder import E
+import lxml.builder
+import lxml.etree
 
 app = Flask(__name__, template_folder='templates')
 
@@ -16,26 +19,36 @@ def export_to_xml():
     df = pd.read_excel('C:\\Users\\ashraf\\Documents\\GitHub\\PDF-school-generator-from-XML-files-project\\server\\data_excel\\affichage.xlsx')
 
     # Create the root element and add the DOCTYPE declaration
-    root = etree.Element('notes')
-    root.addprevious(etree.PI('DOCTYPE', 'notes SYSTEM "notes.dtd"'))
+    # root = etree.XML('<?xml version="1.0"?><notes></notes>')
+    # root.addprevious(etree.PI('DOCTYPE', 'notes SYSTEM "notes.dtd"'))
 
     # Iterate through the rows in the DataFrame and create a 'note' element for each row
-    for _, row in df.iterrows():
-        note = etree.SubElement(root, 'note')
-        etree.SubElement(note, 'CNE').text = str(row['CNE'])
-        etree.SubElement(note, 'FirstName').text = row['FirstName']
-        etree.SubElement(note, 'LastName').text = row['LastName']
-        etree.SubElement(note, 'ClassName').text = row['ClassName']
-        etree.SubElement(note, 'ModuleName').text = row['ModuleName']
-        etree.SubElement(note, 'NoteElement').text = str(row['NoteElement'])
+    root = lxml.builder.E.notes(
+        # doctype='<!DOCTYPE notes SYSTEM "notes.dtd">',
+        *[
+            E.note(
+                E.CNE(str(row['CNE'])),
+                E.FirstName(row['FirstName']),
+                E.LastName(row['LastName']),
+                E.ClassName(row['ClassName']),
+                E.ModuleName(row['ModuleName']),
+                E.NoteElement(str(row['NoteElement']))
+            ) for _, row in df.iterrows()
+        ]
+    )
 
-    # Write the XML elements to a file
-    with open('C:\\Users\\ashraf\\Documents\\GitHub\\PDF-school-generator-from-XML-files-project\\affiche_des_notes\\Ginf2_Notes.xml', 'wb') as f:
-        f.write(etree.tostring(root, pretty_print=True))
+    # Serialize the XML tree to a string using the 'tostring' function from the 'lxml.etree' module
+    xml_str = etree.tostring(root, pretty_print=True).decode('utf-8')
+
+    # Write the XML string to a file
+    with open(
+            'C:\\Users\\ashraf\\Documents\\GitHub\\PDF-school-generator-from-XML-files-project\\affiche_des_notes\\Ginf2_Notes.xml',
+            'w', encoding='utf-8') as f:
+        f.write(xml_str)
 
     # Return a response to the client with the file as an attachment
     return Response(
-        etree.tostring(root, pretty_print=True),
+        xml_str,
         mimetype='text/xml',
         headers={
             'Content-Disposition': 'attachment;filename=data.xml'
