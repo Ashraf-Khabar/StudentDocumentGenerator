@@ -56,22 +56,5 @@ def export_to_xml():
     )
 
 
-@app.route('/planning_after')
-def planning_after():
-    affichage_planning_after()
-    return render_template('planning_after.html', template_folder='templates')
-
-
-@app.route('/attestation')
-def attestation():
-    affichage_attestation()
-    return render_template('attestation.html', template_folder='templates')
-
-@app.route('/relever_note')
-def relever_note():
-        affichage_relever_note()
-        return render_template('relever_note.html', template_folder='templates')
-
-
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=3003, debug=True)
