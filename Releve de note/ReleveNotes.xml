@@ -3,17 +3,17 @@
     <logoEnsa uri="ensat.png"/>
     <logoUae uri="logoUae.jpeg"/>
     <classe>GINF2</classe>
-    <annee>2020</annee>
-    <nomEtud>El Younssi</nomEtud>
-    <prenomEtud> Mouna </prenomEtud>
-    <CNE> 17004474 </CNE>
+    <annee>2023</annee>
+    <nomEtud>khabar</nomEtud>
+    <prenomEtud>achraf</prenomEtud>
+    <CNE> 2545552 </CNE>
     <Modules>
         <Module>
             <codeModule c="GINF31" />
             <designationModule name=" Designation Module">Programmation Orientée Objet et XML</designationModule>
-            <AnneeModule a="2020">2020</AnneeModule>
+            <AnneeModule a="2023">2023</AnneeModule>
             <NoteModule name="Note/20">
-                16
+                17
                 <!--  {
                 let $items:=(doc("ReleveNotes.xml")//Module[codeModule/@c="GINF31"]//NoteMatiere)
                 return <NoteModule > { avg($items)} </NoteModule>
@@ -22,198 +22,198 @@
             <Matieres>
                 <Matiere name= "Désignation matière">
                     <DesignationMatiere>Programmation Orientée Objet : Java</DesignationMatiere>
-                    <NoteMatiere name ="Note/20"> 16.25</NoteMatiere>
+                    <NoteMatiere name ="Note/20">16</NoteMatiere>
                 </Matiere>
                 <Matiere>
                     <DesignationMatiere>XML et Applications</DesignationMatiere>
-                    <NoteMatiere> 15.75</NoteMatiere>
+                    <NoteMatiere>18</NoteMatiere>
                 </Matiere>
             </Matieres>
         </Module>
         <Module>
             <codeModule c="GINF32"/>
             <designationModule>Qualité et approche processus</designationModule>
-            <AnneeModule a="2020">2020</AnneeModule>
-            <NoteModule>16.00</NoteModule>
+            <AnneeModule a="2023">2023</AnneeModule>
+            <NoteModule>15.5</NoteModule>
             <Matieres>
                 <Matiere>
                     <DesignationMatiere>Assurance contrôle qualité (ISO 9001)</DesignationMatiere>
-                    <NoteMatiere> 16.00</NoteMatiere>
+                    <NoteMatiere>16</NoteMatiere>
                 </Matiere>
                 <Matiere>
                     <DesignationMatiere>Cycle de vie Logiciel et méthodes agiles</DesignationMatiere>
-                    <NoteMatiere> 16.25</NoteMatiere>
+                    <NoteMatiere>15.50</NoteMatiere>
                 </Matiere>
                 <Matiere>
                     <DesignationMatiere>Maîtrise et optimisation des processus </DesignationMatiere>
-                    <NoteMatiere> 15.75</NoteMatiere>
+                    <NoteMatiere>15</NoteMatiere>
                 </Matiere>
             </Matieres>
         </Module>
         <Module>
             <codeModule c="GINF33"/>
             <designationModule>Modélisation orientée objet et IHM</designationModule>
-            <AnneeModule a="2020">2020</AnneeModule>
-            <NoteModule>15.00</NoteModule>
+            <AnneeModule a="2023">2023</AnneeModule>
+            <NoteModule>15.5</NoteModule>
             <Matieres>
                 <Matiere>
                     <DesignationMatiere>Modélisation orientée objet UML</DesignationMatiere>
-                    <NoteMatiere> 14.00</NoteMatiere>
+                    <NoteMatiere>15</NoteMatiere>
                 </Matiere>
                 <Matiere>
                     <DesignationMatiere>Interaction Homme Machine</DesignationMatiere>
-                    <NoteMatiere> 16.00</NoteMatiere>
+                    <NoteMatiere>16</NoteMatiere>
                 </Matiere>
             </Matieres>
         </Module>
         <Module>
             <codeModule c="GINF34"/>
             <designationModule>Bases de données avancées I</designationModule>
-            <AnneeModule a="2020">2020</AnneeModule>
-            <NoteModule>16.00</NoteModule>
+            <AnneeModule a="2023">2023</AnneeModule>
+            <NoteModule>13</NoteModule>
             <Matieres>
                 <Matiere>
                     <DesignationMatiere>Optimisation et Qualité de Base de données</DesignationMatiere>
-                    <NoteMatiere> 15.00</NoteMatiere>
+                    <NoteMatiere>14</NoteMatiere>
                 </Matiere>
                 <Matiere>
                     <DesignationMatiere>Adminstartion et sécurité des bdd</DesignationMatiere>
-                    <NoteMatiere> 16.00</NoteMatiere>
+                    <NoteMatiere> 15</NoteMatiere>
                 </Matiere>
                 <Matiere>
-                    <DesignationMatiere>Bases de données NoSQL</DesignationMatiere>
-                    <NoteMatiere> 17.00</NoteMatiere>
+                    <DesignationMatiere>Bases de données réparties</DesignationMatiere>
+                    <NoteMatiere> 12</NoteMatiere>
                 </Matiere>
             </Matieres>
         </Module>
         <Module>
             <codeModule c="GINF35"/>
             <designationModule>Administration et programmation système</designationModule>
-            <AnneeModule a="2020">2020</AnneeModule>
-            <NoteModule>14.50</NoteModule>
+            <AnneeModule a="2023">2023</AnneeModule>
+            <NoteModule>14.25</NoteModule>
             <Matieres>
                 <Matiere>
                     <DesignationMatiere>Administartion systèmes</DesignationMatiere>
-                    <NoteMatiere> 15.00</NoteMatiere>
+                    <NoteMatiere>15.00</NoteMatiere>
                 </Matiere>
                 <Matiere>
                     <DesignationMatiere>Programmation systèmes</DesignationMatiere>
-                    <NoteMatiere> 14.00</NoteMatiere>
+                    <NoteMatiere>13.50</NoteMatiere>
                 </Matiere>
             </Matieres>
         </Module>
         <Module>
             <codeModule c="GINF36"/>
             <designationModule>Langues et communication 2</designationModule>
-            <AnneeModule a="2020">2020</AnneeModule>
-            <NoteModule>16</NoteModule>
+            <AnneeModule a="2023">2023</AnneeModule>
+            <NoteModule>14.66</NoteModule>
             <Matieres>
                 <Matiere>
                     <DesignationMatiere>Espagnol II</DesignationMatiere>
-                    <NoteMatiere> 15.50</NoteMatiere>
+                    <NoteMatiere>14</NoteMatiere>
                 </Matiere>
                 <Matiere>
                     <DesignationMatiere>Anglais professionnel</DesignationMatiere>
-                    <NoteMatiere> 17.50</NoteMatiere>
+                    <NoteMatiere>16</NoteMatiere>
                 </Matiere>
                 <Matiere>
                     <DesignationMatiere>Techniques de Communication</DesignationMatiere>
-                    <NoteMatiere> 15.00</NoteMatiere>
+                    <NoteMatiere>15.00</NoteMatiere>
                 </Matiere>
             </Matieres>
         </Module>
         <Module>
             <codeModule c="GINF41"/>
             <designationModule>Technologies distribuées</designationModule>
-            <AnneeModule a="2020">2020</AnneeModule>
-            <NoteModule>16.50</NoteModule>
+            <AnneeModule a="2023">2023</AnneeModule>
+            <NoteModule>16.25</NoteModule>
             <Matieres>
                 <Matiere>
                     <DesignationMatiere>Introduction à J2EE</DesignationMatiere>
-                    <NoteMatiere> 15.50</NoteMatiere>
+                    <NoteMatiere>14.50</NoteMatiere>
                 </Matiere>
                 <Matiere>
                     <DesignationMatiere>Programmation en C#</DesignationMatiere>
-                    <NoteMatiere> 17.50</NoteMatiere>
+                    <NoteMatiere>18</NoteMatiere>
                 </Matiere>
             </Matieres>
         </Module>
         <Module>
             <codeModule c="GINF42"/>
             <designationModule>Bases de données avancées II et Cloud</designationModule>
-            <AnneeModule a="2020">2020</AnneeModule>
-            <NoteModule>16.50</NoteModule>
+            <AnneeModule a="2023">2023</AnneeModule>
+            <NoteModule>15.5</NoteModule>
             <Matieres>
                 <Matiere>
                     <DesignationMatiere>Gestion de données complexe</DesignationMatiere>
-                    <NoteMatiere> 15.50</NoteMatiere>
+                    <NoteMatiere>15.50</NoteMatiere>
                 </Matiere>
                 <Matiere>
-                    <DesignationMatiere>Gestion des données distribuées</DesignationMatiere>
-                    <NoteMatiere> 17.50</NoteMatiere>
+                    <DesignationMatiere>Bases de données NoSQL</DesignationMatiere>
+                    <NoteMatiere>14.50</NoteMatiere>
                 </Matiere>
                 <Matiere>
                     <DesignationMatiere>Cloud computing et infogérance</DesignationMatiere>
-                    <NoteMatiere> 16.50</NoteMatiere>
+                    <NoteMatiere>16.50</NoteMatiere>
                 </Matiere>
             </Matieres>
         </Module>
         <Module>
             <codeModule c="GINF43"/>
             <designationModule>Traitement de l'image</designationModule>
-            <AnneeModule a="2020">2020</AnneeModule>
-            <NoteModule>16.50</NoteModule>
+            <AnneeModule a="2023">2023</AnneeModule>
+            <NoteModule>15.6666</NoteModule>
             <Matieres>
                 <Matiere>
                     <DesignationMatiere>Traitement d'Image</DesignationMatiere>
-                    <NoteMatiere> 15.50</NoteMatiere>
+                    <NoteMatiere>18</NoteMatiere>
                 </Matiere>
                 <Matiere>
                     <DesignationMatiere>Vision numérique</DesignationMatiere>
-                    <NoteMatiere> 17.50</NoteMatiere>
+                    <NoteMatiere>14</NoteMatiere>
                 </Matiere>
                 <Matiere>
                     <DesignationMatiere>processus Stochastique</DesignationMatiere>
-                    <NoteMatiere> 16.50</NoteMatiere>
+                    <NoteMatiere>15</NoteMatiere>
                 </Matiere>
             </Matieres>
         </Module>
         <Module>
             <codeModule c="GINF44"/>
             <designationModule>Programmation déclarative et TAV</designationModule>
-            <AnneeModule a="2020">2020</AnneeModule>
-            <NoteModule>16.50</NoteModule>
+            <AnneeModule a="2023">2023</AnneeModule>
+            <NoteModule>14.5</NoteModule>
             <Matieres>
                 <Matiere>
                     <DesignationMatiere>Programmation Déclarative</DesignationMatiere>
-                    <NoteMatiere> 15.50</NoteMatiere>
+                    <NoteMatiere>15</NoteMatiere>
                 </Matiere>
                 <Matiere>
                     <DesignationMatiere>Technique Algorithmique Avancée</DesignationMatiere>
-                    <NoteMatiere> 17.50</NoteMatiere>
+                    <NoteMatiere>14</NoteMatiere>
                 </Matiere>
             </Matieres>
         </Module>
         <Module>
             <codeModule c="GINF45"/>
             <designationModule>Sécurité et cryptographie</designationModule>
-            <AnneeModule a="2020">2020</AnneeModule>
-            <NoteModule>16.50</NoteModule>
+            <AnneeModule a="2023">2023</AnneeModule>
+            <NoteModule>13.5</NoteModule>
             <Matieres>
                 <Matiere>
                     <DesignationMatiere>Sécurité des systèmes</DesignationMatiere>
-                    <NoteMatiere> 15.50</NoteMatiere>
+                    <NoteMatiere>14</NoteMatiere>
                 </Matiere>
                 <Matiere>
                     <DesignationMatiere>Cryptographie</DesignationMatiere>
-                    <NoteMatiere> 17.50</NoteMatiere>
+                    <NoteMatiere>13</NoteMatiere>
                 </Matiere>
             </Matieres>
         </Module>
         <Module>
             <codeModule c="GINF46"/>
             <designationModule>Management de l'entreprise 2</designationModule>
-            <AnneeModule a="2020">2020</AnneeModule>
+            <AnneeModule a="2023">2023</AnneeModule>
             <NoteModule>16.333</NoteModule>
             <Matieres>
                 <Matiere>
@@ -232,11 +232,7 @@
         </Module>
         
     </Modules>
-    <Resultat>14.5</Resultat>
-    
-    
-    
-    
+    <Resultat></Resultat>
     
 </ReleveN>
 

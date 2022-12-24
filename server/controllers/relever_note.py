@@ -8,7 +8,7 @@ import xml.etree.ElementTree as ET
 
 def affichage_relever_note():
     xml_doc = etree.parse('../Releve_Note/ReleveNotes.xml')
-    xsl_doc = etree.parse('../Releve_Note/ReleveNotesxsl.xsl')
+    xsl_doc = etree.parse('../Releve_Note/ReleveNotes.xsl')
 
     # Create a transform object
     transform = etree.XSLT(xsl_doc)
