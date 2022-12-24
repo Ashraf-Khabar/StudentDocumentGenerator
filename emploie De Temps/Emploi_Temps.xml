@@ -4,11 +4,11 @@
     <TopBar>
         <logoUae uri="logoUae.png"/>
         <logoEnsa uri="ensa.png"/>
-        <Title>EMPLOI DU TEMPS ENSA TANGER --- GINF2</Title>
+        <Title>EMPLOI DU TEMPS ENSA TANGER GINF2</Title>
         <semaine>Semaine :</semaine>
         <annee>Année :</annee>
-        <SemNum>05</SemNum>
-        <AnneeNum>2021</AnneeNum>
+        <SemNum>51</SemNum>
+        <AnneeNum>2022</AnneeNum>
     </TopBar>
     <Days>
         <day name="Lundi"></day>
@@ -47,81 +47,81 @@
     <matieres>
 
         <matiere1>
-            <nom>CYCLE DE VIE LOG</nom>
-            <type>CM -</type>
-            <Durre1>09:00 - 10:30</Durre1>
+            <nom>MODELISATION ORI</nom>
+            <type>TD -</type>
+            <Durre1>08:45 - 10:15</Durre1>
             <jour>Lundi</jour>
-            <nomProf>BADIR</nomProf>
-            <salle>A DISTANCE</salle>
+            <nomProf>EL ALAMI</nomProf>
+            <salle>SALLE B19</salle>
         </matiere1>
 
         <matiere1suite>
-            <nom>CYCLE DE VIE LOG</nom>
-            <type>CM -</type>
-            <Durre1>11:00 - 12:30</Durre1>
+            <nom>MODELISATION ORI</nom>
+            <type>TD -</type>
+            <Durre1>10:30 - 12:00</Durre1>
             <jour>Lundi</jour>
-            <nomProf>BADIR</nomProf>
-            <salle>A DISTANCE</salle>
+            <nomProf>EL ALAMI</nomProf>
+            <salle>SALLE B19</salle>
         </matiere1suite>
 
         <matiere2>
-            <nom>PROGRAMMATION SY</nom>
+            <nom>CYCLE DE VIE LOG</nom>
             <type>TP -</type>
-            <Durre1>14:00 - 15:30</Durre1>
+            <Durre1>14:30 - 16:00</Durre1>
             <jour>Lundi</jour>
-            <nomProf>AMECHNOUE</nomProf>
-            <salle>Salle B21</salle>
+            <nomProf>BADIR</nomProf>
+            <salle>Salle B19</salle>
         </matiere2>
 
         <matiere3>
-            <nom>PROGRAMMATION SY</nom>
+            <nom>CYCLE DE VIE LOG</nom>
             <type>TP -</type>
-            <Durre1>16:00 - 17:30</Durre1>
+            <Durre1>16:15 - 17:45</Durre1>
             <jour>Lundi</jour>
-            <nomProf>AMECHNOUE</nomProf>
-            <salle>Salle B21</salle>
+            <nomProf>BADIR</nomProf>
+            <salle>Salle B19</salle>
         </matiere3>
 
         <matiere4>
             <nom>GESTION DES DONN</nom>
             <type>CM -</type>
-            <Durre1>09:00 - 10:30</Durre1>
+            <Durre1>08:45 - 10:15</Durre1>
             <jour>Mardi</jour>
             <nomProf>FISSOUNE</nomProf>
-            <salle>AMPHI2</salle>
+            <salle>SALE B20</salle>
         </matiere4>
 
         <matiere5>
             <nom>GESTION DES DONN</nom>
             <type>TP -</type>
-            <Durre1>11:00 - 12:30</Durre1>
+            <Durre1>10:30 - 12:00</Durre1>
             <jour>Mardi</jour>
             <nomProf>FISSOUNE</nomProf>
-            <salle>AMPHI2</salle>
+            <salle>SALLE B19</salle>
         </matiere5>
 
         <matiere6>
             <nom>PROGRAMMATION SY</nom>
-            <type>CM -</type>
-            <Durre1>14:00 - 15:30</Durre1>
+            <type>TP -</type>
+            <Durre1>13:30 - 15:00</Durre1>
             <jour>Mardi</jour>
             <nomProf>AMECHNOUE</nomProf>
-            <salle>A DISTANCE</salle>
+            <salle>SALLE B20</salle>
         </matiere6>
 
         <matiere7>
-            <nom>ESPAGNOL</nom>
-            <type>CM -</type>
-            <Durre1>16:00 - 17:30</Durre1>
+            <nom>PROGRAMMATION</nom>
+            <type>TP -</type>
+            <Durre1>15:15 - 16:30</Durre1>
             <jour>Mardi</jour>
-            <nomProf>LAAMARTI</nomProf>
-            <salle>AMPHI 2</salle>
+            <nomProf>AMECHNOUE</nomProf>
+            <salle>SALLE B20</salle>
         </matiere7>
 
         <matiere8>
             <nom>PROGRAMMATION OR</nom>
             <type>CM -</type>
-            <Durre1>09:00 - 10:30</Durre1>
+            <Durre1>08:45 - 10:15</Durre1>
             <jour>Mercredi</jour>
             <nomProf>EL HADDAD</nomProf>
             <salle>SALLE B19</salle>
@@ -130,64 +130,65 @@
         <matiere9>
             <nom>PROGRAMMATION OR</nom>
             <type>TP -</type>
-            <Durre1>11:00 - 12:30</Durre1>
+            <Durre1>10:30 - 12:00</Durre1>
             <jour>Mercredi</jour>
             <nomProf>EL HADDAD</nomProf>
             <salle>SALLE B19</salle>
         </matiere9>
+        
 
         <matiere10>
-            <nom>MODELISATION ORI</nom>
-            <type>TD -</type>
-            <Durre1>09:00 - 10:45</Durre1>
+            <nom>INTERFACE HOMM</nom>
+            <type>CM -</type>
+            <Durre1>08:45 - 10:15</Durre1>
             <jour>Jeudi</jour>
             <nomProf>EL ALAMI</nomProf>
-            <salle>SALLE B14</salle>
+            <salle>SALLE B19</salle>
         </matiere10>
 
         <matiere11>
-            <nom>MODELISATION ORI</nom>
-            <type>TD -</type>
-            <Durre1>11:00 - 12:45</Durre1>
+            <nom>INTERFACE HOMM</nom>
+            <type>TP -</type>
+            <Durre1>10:30 - 12:00</Durre1>
             <jour>Jeudi</jour>
             <nomProf>EL ALAMI</nomProf>
-            <salle>SALLE B14</salle>
+            <salle>SALLE B19</salle>
         </matiere11>
-
+        
         <matiere12>
-            <nom>TECHNIQUE DE COM</nom>
+            <nom>ESPAGNOL</nom>
             <type>CM -</type>
-            <Durre1>14:00 - 15:30</Durre1>
+            <Durre1>14:30 - 16:00</Durre1>
             <jour>Jeudi</jour>
-            <nomProf>ZAAMOUMI</nomProf>
-            <salle>SALLE A8</salle>
+            <nomProf>LAAMARTI</nomProf>
+            <salle>SALLE B22</salle>
         </matiere12>
 
         <matiere13>
-            <nom>TECHNIQUE DE COM</nom>
+            <nom>PROGRAMMATION</nom>
             <type>CM -</type>
-            <Durre1>16:00 - 17:30</Durre1>
-            <jour>Jeudi</jour>
-            <nomProf>ZAAMOUMI</nomProf>
-            <salle>SALLE A8</salle>
+            <Durre1>13:30 - 15:00</Durre1>
+            <jour>Mardi</jour>
+            <nomProf>AMECHNOUE</nomProf>
+            <salle>SALLE B20</salle>
         </matiere13>
 
         <matiere14>
-            <nom>INTERFACE HOMME</nom>
+            <nom>TECHNIQUE DE CO</nom>
             <type>CM -</type>
-            <Durre1>09:00 - 10:30</Durre1>
+            <Durre1>08:45 - 10:35</Durre1>
             <jour>Vendredi</jour>
-            <nomProf>EL ALAMI</nomProf>
-            <salle>A DISTANCE</salle>
+            <nomProf>ZAAMOUMI</nomProf>
+            <salle>SALLE B19</salle>
         </matiere14>
 
         <matiere15>
-            <nom>INTERFACE HOMME</nom>
+            <nom>TECHNIQUE DE CO</nom>
             <type>TD -</type>
-            <Durre1>11:00 - 12:45</Durre1>
+            <Durre1>10:30 - 12:00</Durre1>
             <jour>Vendredi</jour>
-            <nomProf>EL ALAMI</nomProf>
-            <salle>SALLE B20</salle>
+            <nomProf>ZAAMOUMI</nomProf>
+            <salle>SALLE B19</salle>
         </matiere15>
 
         <matiere16>
@@ -196,7 +197,7 @@
             <Durre1>14:30 - 16:00</Durre1>
             <jour>Vendredi</jour>
             <nomProf>CHICHI</nomProf>
-            <salle>A DISTANCE</salle>
+            <salle>SALLE A7</salle>
         </matiere16>
 
         <matiere17>
@@ -205,7 +206,7 @@
             <Durre1>16:30 - 18:00</Durre1>
             <jour>Vendredi</jour>
             <nomProf>CHICHI</nomProf>
-            <salle>A DISTANCE</salle>
+            <salle>SALLE A7</salle>
         </matiere17>
 
 

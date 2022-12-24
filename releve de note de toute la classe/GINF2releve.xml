@@ -3,29 +3,28 @@
     <logoEnsa uri="ensat.png"/>
     <logoUae uri="logoUae.jpeg"/>
     <classe>GINF2</classe>
-    <annee>2020</annee>
+    <annee>2022</annee>
     
     <listeEtudiants>
         <Etudiant CNE="2455488">
+            
             <Nom>KHABAR</Nom>
             <Prenom>achraf</Prenom>
             <Notes>
-                <Note1>16.00</Note1>
-                <Note2>13.50</Note2>
-                <Note3>14.75</Note3>
-                <Note4>15.00</Note4>
-                <Note5>15.85</Note5>
-                <Note6>14.66</Note6>
-                <Note7>16.5</Note7>
-                <Note8>14.78</Note8>
-                <Note9>15.00</Note9>
-                <Note10>13.50</Note10>
-                <Note11>14.5</Note11>
-                <Note12>17.00</Note12>
+                <Note1>17</Note1>
+                <Note2>15.5</Note2>
+                <Note3>15.5</Note3>
+                <Note4>13.667</Note4>
+                <Note5>14.25</Note5>
+                <Note6>15.0</Note6>
+                <Note7>16.25</Note7>
+                <Note8>15.5</Note8>
+                <Note9>15.667</Note9>
+                <Note10>14.5</Note10>
+                <Note11>13.5</Note11>
+                <Note12>16.333</Note12>
             </Notes>
-
         </Etudiant>
-
     </listeEtudiants>
     
     <listeModules>
