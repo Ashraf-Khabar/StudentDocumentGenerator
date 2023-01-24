@@ -4,4 +4,8 @@
         <Nom>achraf</Nom>
         <Prenom>khabar</Prenom>
     </Etudiant>
+    <Etudiant CNE="45555445" id="1">
+        <Nom>zakaria</Nom>
+        <Prenom>khabar</Prenom>
+    </Etudiant>
 </listeEtudiants>
