@@ -1,5 +1,5 @@
 # Student Document Generator 
-<img src="https://img.shields.io/badge/Made%20by-Ashraf%20Khabar-blue" alt="made by Ashraf Khabar"> <img src="https://img.shields.io/badge/Made%20by-Zakaria%20Dkhissi-blue" alt="made by Zakaria Dkhissi"> <img src="https://img.shields.io/badge/Framed%20by-Mr.%20Abdelmonaime%20Lachkar-blue" alt="Framed by Mr. Abdelmonaime Lachkar">
+<img src="https://img.shields.io/badge/Made%20by-Ashraf%20Khabar-blue" alt="made by Ashraf Khabar"> <img src="https://img.shields.io/badge/Framed%20by-Mr.%20Abdelmonaime%20Lachkar-blue" alt="Framed by Mr. Abdelmonaime Lachkar">
 
 ## Introduction
 
