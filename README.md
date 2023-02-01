@@ -1,5 +1,12 @@
 # Student Document Generator 
-<img src="https://img.shields.io/badge/Made%20by-Ashraf%20Khabar-blue" alt="made by Ashraf Khabar"> <img src="https://img.shields.io/badge/Made%20by-Zakaria%20Dkhissi-blue" alt="made by Zakaria Dkhissi"> <img src="https://img.shields.io/badge/Framed%20by-Mr.%20Abdelmonaime%20Lachkar-blue" alt="Framed by Mr. Abdelmonaime Lachkar">
+<img src="https://img.shields.io/badge/Made%20by-Ashraf%20Khabar-blue" alt="made by Ashraf Khabar"> <img src="https://img.shields.io/badge/Made%20by-Zakaria%20Dkhissi-blue" alt="made by Zakaria Dkhissi"> <img src="https://img.shields.io/badge/Framed%20by-Mr.%20Abdelmonaime%20Lachkar-white" alt="Framed by Mr. Abdelmonaime Lachkar">
+
+<p align="center">
+  <a href="https://www.w3schools.com/xml/xml_whatis.asp"> <img src="https://seeklogo.com/images/X/xml-logo-58BFD10607-seeklogo.com.png" alt="Node.js" height="70"></a>
+  <a href="https://www.python.org"> <img src="https://assets.stickpng.com/images/5848152fcef1014c0b5e4967.png" alt="Express.js" height="70"></a>
+  <a href="https://flask.palletsprojects.com/en/2.2.x/"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1280px-Flask_logo.svg.png" alt="React.js" height="70"></a>
+  <a href="https://www.oxygenxml.com"> <img src="https://www.oxygenxml.com/img/resources/oxygen320x102_dark.png" alt="MySQL" height="70"></a>
+ </p>
 
 ## Introduction
 
