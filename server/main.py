@@ -57,7 +57,7 @@ def export_to_xml():
 
 
 @app.route('/studentcard', methods=['GET'])
-def export_to_xml():
+def studentCard():
     # Read the Excel file into a Pandas DataFrame
     df = pd.read_excel('C:studentcard.xlsx')
 
@@ -121,7 +121,7 @@ def export_to_xml():
 
 
 @app.route('/groupeTp', methods=['GET'])
-def export_to_xml_new():
+def groupeTp():
     # Read the Excel file into a Pandas DataFrame
     df = pd.read_excel('C:\\Users\\ashraf\\Documents\\GitHub\\PDF-school-generator-from-XML-files-project\\server\\data_excel\\groupeTp.xlsx')
 
@@ -203,7 +203,6 @@ def releverDeNote(codeModule=None):
             'Content-Disposition': 'attachment;filename=ReleveNotes.xml'
         }
     )
-
 
 
 if __name__ == '__main__':
