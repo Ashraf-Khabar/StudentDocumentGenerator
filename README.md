@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://www.w3schools.com/xml/xml_whatis.asp"> <img src="https://seeklogo.com/images/X/xml-logo-58BFD10607-seeklogo.com.png" alt="Node.js" height="70"></a>
-  <a href="https://www.python.org"> <img src="[https://assets.stickpng.com/images/5848152fcef1014c0b5e4967.png](https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png)" alt="python.js" height="70"></a>
+  <a href="https://www.python.org"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/1280px-Python_logo_and_wordmark.svg.png" alt="python.js" height="70"></a>
   <a href="https://flask.palletsprojects.com/en/2.2.x/"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1280px-Flask_logo.svg.png" alt="React.js" height="70"></a>
   <a href="https://www.oxygenxml.com"> <img src="https://www.oxygenxml.com/img/resources/oxygen320x102_dark.png" alt="MySQL" height="70"></a>
  </p>
