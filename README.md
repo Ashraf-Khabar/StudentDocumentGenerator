@@ -1,5 +1,5 @@
 # Student Document Generator 
-<img src="https://img.shields.io/badge/Made%20by-Ashraf%20Khabar-blue" alt="made by Ashraf Khabar"> <img src="https://img.shields.io/badge/Made%20by-Zakaria%20Dkhissi-blue" alt="made by Zakaria Dkhissi"> <img src="https://img.shields.io/badge/Framed%20by-Mr.%20Abdelmonaime%20Lachkar-white" alt="Framed by Mr. Abdelmonaime Lachkar">
+<img src="https://img.shields.io/badge/Made%20by-Ashraf%20Khabar-blue" alt="made by Ashraf Khabar"> <img src="https://img.shields.io/badge/Framed%20by-Mr.%20Abdelmonaime%20Lachkar-white" alt="Framed by Mr. Abdelmonaime Lachkar">
 
 <p align="center">
   <a href="https://www.w3schools.com/xml/xml_whatis.asp"> <img src="https://seeklogo.com/images/X/xml-logo-58BFD10607-seeklogo.com.png" alt="Node.js" height="70"></a>
